@@ -3,6 +3,6 @@ const language = 'ja';
 const ipaddr = "192.168.43.131"
 googlehome.device("Google-Home", language);
 googlehome.ip(ipaddr);
-googlehome.notify("かすみさんおやすみなさい、いいゆめを", function(res) {
+googlehome.notify("Hello World", function(res) {
     console.log(res);
 });
