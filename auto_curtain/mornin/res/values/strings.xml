@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="app_name">"mornin' plus"</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="back">戻る</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cancel">キャンセル</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="chicken">"mornin'"</string>
+    <string name="chicken2">"mornin' plus"</string>
+    <string name="chicken_action_test">動作を確認する</string>
+    <string name="chicken_action_test_lable">残り移動時間</string>
+    <string name="chicken_add_device">本体を追加</string>
+    <string name="chicken_add_selection_main">追加方法を選択</string>
+    <string name="chicken_advanced">高度な設定</string>
+    <string name="chicken_advanced_detail_value_main">細かな数値設定</string>
+    <string name="chicken_advanced_detail_value_sub">"動作パワーおよび昇降スピードの数値の刻みを細かくします。（mornin' plusのみ）"</string>
+    <string name="chicken_advanced_more_slowly_main">より遅い昇降スピード</string>
+    <string name="chicken_advanced_more_slowly_sub">"昇降スピードをより遅くできますが、電池が消耗すると昇降しなくなる可能性があります。（mornin' plusのみ）"</string>
+    <string name="chicken_advanced_value_fixed_main">この機能をオフにすると、設定している値が調整されます</string>
+    <string name="chicken_advanced_value_fixed_sub">オフの状態で選択できる、最も近い値に変更されます。</string>
+    <string name="chicken_bed_room">寝室</string>
+    <string name="chicken_behind">裏</string>
+    <string name="chicken_chicken">"mornin'"</string>
+    <string name="chicken_chicken2">"mornin' plus"</string>
+    <string name="chicken_ck1_movement">開閉の動作</string>
+    <string name="chicken_closing_movement">閉める動作</string>
+    <string name="chicken_collabo_position">設置位置</string>
+    <string name="chicken_confirm_delete_main">この本体と再度接続するためには、接続の設定をし直す必要があります。</string>
+    <string name="chicken_confirm_delete_yes">この本体の接続を解除</string>
+    <string name="chicken_connect_new">新しい本体を接続</string>
+    <string name="chicken_delete_device">この本体の接続を解除</string>
+    <string name="chicken_duration">移動時間</string>
+    <string name="chicken_duration_min_sec_fmt">%1$d分%2$d秒</string>
+    <string name="chicken_duration_sec_fmt">%1$d秒</string>
+    <string name="chicken_edit_collabo_position_back_main">カーテンの裏</string>
+    <string name="chicken_edit_collabo_position_front_main">カーテンの表</string>
+    <string name="chicken_edit_collabo_position_see_installation">取り付け方を確認する</string>
+    <string name="chicken_edit_collabo_position_sub">本体を設置する場所を選んでください。表と裏では取り付け方が異なりますのでご注意ください。</string>
+    <string name="chicken_edit_duration_set_up_notes_close_sub">カーテンを開けた状態でCLOSEボタンを押し、閉めきったところで停止させてください。</string>
+    <string name="chicken_edit_duration_set_up_notes_main">移動時間をリモコン操作で計測して設定できます</string>
+    <string name="chicken_edit_duration_set_up_notes_open_sub">カーテンを閉めた状態でOPENボタンを押し、開ききったところで停止させてください。</string>
+    <string name="chicken_edit_duration_set_up_notes_title">お知らせ</string>
+    <string name="chicken_edit_duration_set_up_plus_close_label">移動時間（閉まる動作）</string>
+    <string name="chicken_edit_duration_set_up_plus_open_label">移動時間（開く動作）</string>
+    <string name="chicken_edit_duration_set_up_saved_main_fmt">移動する時間を%1$sに設定しました</string>
+    <string name="chicken_edit_duration_set_up_selection_main">移動時間を選択</string>
+    <string name="chicken_edit_duration_set_up_title">移動時間</string>
+    <string name="chicken_edit_duration_set_up_v1_label">移動時間</string>
+    <string name="chicken_edit_lifting_safety_rate_confirm_main">上昇時間を補正しますか？</string>
+    <string name="chicken_edit_lifting_safety_rate_confirm_set_default">初期値に戻す</string>
+    <string name="chicken_edit_lifting_safety_rate_confirm_set_fmt">%1$sに補正する</string>
+    <string name="chicken_edit_lifting_safety_rate_confirm_sub">変更する場合は必ず動作確認を行い、上昇時間が過不足ないかを確認してください。</string>
+    <string name="chicken_edit_lifting_safety_rate_main">上昇時間の補正</string>
+    <string name="chicken_edit_lifting_safety_rate_selection_main">上昇時間の補正値を選択</string>
+    <string name="chicken_edit_lifting_safety_rate_sub">上昇が足りずにタイヤが空回りする場合は大きく、上昇時にカチカチと音がなる場合は小さくします。</string>
+    <string name="chicken_edit_lifting_safety_rate_sub_warn">上昇動作に問題がない場合は、故障の原因になりますので変更しないでください。</string>
+    <string name="chicken_edit_lifting_speed_main">昇降スピード</string>
+    <string name="chicken_edit_lifting_speed_selection_main">昇降スピードを選択</string>
+    <string name="chicken_edit_lifting_speed_sub">数値を上げると開閉が始まるまでの時間が短くなりますが、動作音が大きくなります。</string>
+    <string name="chicken_edit_lifting_type_main">手でカーテンを開閉</string>
+    <string name="chicken_edit_lifting_type_off_main">この機能をオフにすると、タイヤが昇降しなくなります</string>
+    <string name="chicken_edit_lifting_type_off_sub">カーテンを開閉する際は、専用アプリからリモコンで操作してください。</string>
+    <string name="chicken_edit_lifting_type_sub">オフにするとタイヤが下降しなくなり、すぐに開閉し始めますが、カーテンを手で開けられなくなります。</string>
+    <string name="chicken_edit_movement_duration_sub">本体がカーテンレールを移動する秒数を設定します。動作パワーによって必要な移動時間は異なります。</string>
+    <string name="chicken_edit_movement_power_selection_main">動作パワーを選択</string>
+    <string name="chicken_edit_movement_power_sub">パワーを上げると重いカーテンに対応でき、開閉速度も速くなりますが、動作音が大きくなります。</string>
+    <string name="chicken_edit_position_sub">カーテンを開ける際の向きを選んでください。右側の窓であれば通常は右方向に開きます。</string>
+    <string name="chicken_edit_title">本体設定</string>
+    <string name="chicken_firmware">ファームウェア</string>
+    <string name="chicken_front">表</string>
+    <string name="chicken_icon">アイコン</string>
+    <string name="chicken_left">左</string>
+    <string name="chicken_left_arrow">開く方向（左）</string>
+    <string name="chicken_lift">タイヤの昇降</string>
+    <string name="chicken_list_battery_low">電池残量が減っています</string>
+    <string name="chicken_list_battery_none">電池を交換してください</string>
+    <string name="chicken_list_connected">接続済みです</string>
+    <string name="chicken_list_connecting">探しています…</string>
+    <string name="chicken_list_disconnected">接続されていません</string>
+    <string name="chicken_list_has_firmware_update">ファームウェアの更新があります</string>
+    <string name="chicken_list_invalid_pairing">接続設定が無効になっています</string>
+    <string name="chicken_list_never_connected">一度も接続されていません</string>
+    <string name="chicken_lounge">リビング</string>
+    <string name="chicken_minute">分</string>
+    <string name="chicken_name">名前</string>
+    <string name="chicken_name_input_main">名前を入力</string>
+    <string name="chicken_name_is_empty">名前を入力してください</string>
+    <string name="chicken_name_over_length">名前が長すぎます</string>
+    <string name="chicken_none">ー</string>
+    <string name="chicken_nursery">子供部屋</string>
+    <string name="chicken_off">オフ</string>
+    <string name="chicken_on">オン</string>
+    <string name="chicken_opening_movement">開く動作</string>
+    <string name="chicken_position">開く方向</string>
+    <string name="chicken_power">動作パワー</string>
+    <string name="chicken_received_qr">共有コード読み取り</string>
+    <string name="chicken_right">右</string>
+    <string name="chicken_right_arrow">開く方向（右）</string>
+    <string name="chicken_safety_rate_default_fmt">%1$d%% (初期値)</string>
+    <string name="chicken_safety_rate_fmt">%1$d%%</string>
+    <string name="chicken_second">秒</string>
+    <string name="chicken_settings_saved">設定を保存しました</string>
+    <string name="chicken_variation">専用</string>
+    <string name="close">閉じる</string>
+    <string name="com.crashlytics.android.build_id">a255f496-8c25-40a8-aae2-554345f03da0</string>
+    <string name="darpan">だーぱん</string>
+    <string name="delete">削除</string>
+    <string name="dfu_action_abort">Abort</string>
+    <string name="dfu_channel_description">Shows DFU progress.</string>
+    <string name="dfu_channel_name">DFU</string>
+    <string name="dfu_status_aborted">Aborted</string>
+    <string name="dfu_status_aborted_msg">Application upload has been canceled.</string>
+    <string name="dfu_status_aborting">Aborting…</string>
+    <string name="dfu_status_completed">Done</string>
+    <string name="dfu_status_completed_msg">Application has been sent successfully.</string>
+    <string name="dfu_status_connecting">Connecting…</string>
+    <string name="dfu_status_connecting_msg">Connecting to %s…</string>
+    <string name="dfu_status_disconnecting">Disconnecting…</string>
+    <string name="dfu_status_disconnecting_msg">Disconnecting from %s…</string>
+    <string name="dfu_status_error">Upload failed</string>
+    <string name="dfu_status_error_msg">DFU process failed.</string>
+    <string name="dfu_status_foreground_content">Update in progress…</string>
+    <string name="dfu_status_foreground_title">Device Firmware Update</string>
+    <string name="dfu_status_initializing">Initializing…</string>
+    <string name="dfu_status_starting">Starting DFU…</string>
+    <string name="dfu_status_starting_msg">Initializing DFU process…</string>
+    <string name="dfu_status_switching_to_dfu">Starting bootloader…</string>
+    <string name="dfu_status_switching_to_dfu_msg">Waiting for bootloader…</string>
+    <string name="dfu_status_uploading">Uploading…</string>
+    <string name="dfu_status_uploading_msg">Transmitting firmware to %s…</string>
+    <string name="dfu_status_uploading_part" formatted="false">Uploading part %d/%d…</string>
+    <string name="dfu_status_validating">Validating…</string>
+    <string name="dfu_status_validating_msg">Validating…</string>
+    <string name="dfu_unknown_name">unnamed device</string>
+    <string name="done">完了</string>
+    <string name="drawer_accessibility_close">メニューを閉じます</string>
+    <string name="drawer_accessibility_open">メニューを開きます</string>
+    <string name="edit">編集</string>
+    <string name="error_api_network_detail">スマートフォンがインターネットに接続しているか確認してください。</string>
+    <string name="error_api_network_title">通信エラー</string>
+    <string name="error_api_not_found_detail">アプリケーションが最新になっているか、対象サービスが終了していないか確認してください。</string>
+    <string name="error_api_not_found_title">通信先が見つかりません</string>
+    <string name="error_api_unhandled_detail">通信に失敗しました。</string>
+    <string name="error_api_unhandled_detail_fmt_with_error_code">"通信に失敗しました。
+エラーコード: %1$d"</string>
+    <string name="error_api_unhandled_detail_fmt_with_msg">"通信に失敗しました。
+%1$s"</string>
+    <string name="error_api_unhandled_title">通信エラー</string>
+    <string name="error_bluetooth_state_off_detail">「設定」アプリからBluetoothをオンにしてください。</string>
+    <string name="error_bluetooth_state_off_title">Bluetoothがオフになっています</string>
+    <string name="error_chicken_not_exist_detail">本体の設定を削除し、再度登録してください。</string>
+    <string name="error_chicken_not_exist_title">対象の本体情報が正しくありません</string>
+    <string name="error_device_not_connected_detail">本体から距離が離れていないか、他に接続しているスマートフォンが無いか、ご確認ください。</string>
+    <string name="error_device_not_connected_title">対象の本体が接続されていません</string>
+    <string name="error_device_permission_error_detail">本体の電池を入れ直してください。解決しない場合は中央下部のリセットスイッチを押してください。</string>
+    <string name="error_device_permission_error_title">本体にエラーが発生しました</string>
+    <string name="error_device_working_in_progress_detail">時間をおいて、再度お試しください。</string>
+    <string name="error_device_working_in_progress_title">通信に失敗しました</string>
+    <string name="error_dfu_battery_low_detail">ファームウェアを更新する前に本体の電池を交換してください。</string>
+    <string name="error_dfu_battery_low_title">電池残量が少なくなっています</string>
+    <string name="error_dfu_error_detail_fmt">"再接続には数分程度かかる場合があります。
+Bluetoothを一度オフにした後オンにしてから再度更新・修復をお試しください。
+
+それでも失敗する場合は本アプリを含む起動中のアプリを全て終了してから再度お試しください。
+エラーコード: %1$d"</string>
+    <string name="error_dfu_error_title">ファームウェアの更新・修復に失敗しました</string>
+    <string name="error_dfu_no_update_detail" />
+    <string name="error_dfu_no_update_title">ファームウェアの更新はありません</string>
+    <string name="error_empty_chicken_target_detail">対象の本体を選択して、再度お試しください。</string>
+    <string name="error_empty_chicken_target_title">本体が1台も選択されていません</string>
+    <string name="error_firmware_not_exist_title">ファームウェアの取得に失敗しました</string>
+    <string name="error_go_to_settings_title">設定を開く</string>
+    <string name="error_invalid_time_detail">タイマーの時間を編集または削除してください。</string>
+    <string name="error_invalid_time_title">タイマーが無効です</string>
+    <string name="error_location_not_granted_detail">Androidの仕様上、Bluetooth通信には位置情報の許可が必要です。有効にして再度お試しください。</string>
+    <string name="error_location_not_granted_title">位置情報が無効になっています</string>
+    <string name="error_location_off_detail">Androidの仕様上、本体と接続するには位置情報をオンにする必要があります。有効にして再度お試しください。</string>
+    <string name="error_location_off_title">位置情報がオフになっています</string>
+    <string name="error_name_over_length_title">文字数が長すぎます</string>
+    <string name="error_no_timer_vacancy_in_local_detail">新たにタイマーを作成する場合は、タイマーを削除する必要があります。</string>
+    <string name="error_no_timer_vacancy_in_local_title">タイマーをこれ以上作成することはできません</string>
+    <string name="error_no_timer_vacancy_on_chicken_detail">新たにタイマーを作成する場合は、対象の本体からタイマーを削除または無効にする必要があります。</string>
+    <string name="error_no_timer_vacancy_on_chicken_title">本体の最大設定数を超過しました</string>
+    <string name="error_not_enough_interval_firing_non_repeat_timer_detail">時間をおいて、再度設定してください。</string>
+    <string name="error_not_enough_interval_firing_non_repeat_timer_title">動き出す時間の直前に設定することはできません</string>
+    <string name="error_notification_not_granted_detail">サウンドを使用する場合は、「設定」アプリから本アプリの通知設定を有効にした後、再度お試しください。</string>
+    <string name="error_notification_not_granted_title">通知が無効になっています</string>
+    <string name="error_realm_migration_needed_detail">"一度アプリを終了して、再度起動してください。
+改善されない場合はアプリを一度削除して、再度インストールし直してください。"</string>
+    <string name="error_realm_migration_needed_title">データを適切にアップデートできませんでした</string>
+    <string name="error_recovery_chicken_not_found_detail">本体のランプが高速点滅しているかご確認ください。</string>
+    <string name="error_recovery_chicken_not_found_title">対象の本体が見つかりません</string>
+    <string name="error_remocon_not_allowed_during_init_detail">初期化が完了した後、再度お試しください。</string>
+    <string name="error_remocon_not_allowed_during_init_title">タイヤの位置を初期化中です</string>
+    <string name="error_request_during_lifting_not_allowed_detail">タイヤの昇降が完了した後、再度お試しください。</string>
+    <string name="error_request_during_lifting_not_allowed_title">タイヤが昇降中のため要求が拒否されました</string>
+    <string name="error_same_timer_already_saved_detail">同じ時間と条件のタイマーを複数設定することはできません。</string>
+    <string name="error_same_timer_already_saved_title">同じ時間と条件のタイマーが既に設定されています</string>
+    <string name="error_share_camera_denied_detail">「設定」アプリからカメラのアクセスを許可してください。</string>
+    <string name="error_share_camera_denied_title">カメラにアクセスできません</string>
+    <string name="error_share_camera_restricted_detail">「設定」アプリで「一般」＞「機能制限」と選択し、カメラの機能制限を解除してください。</string>
+    <string name="error_share_camera_restricted_title">カメラの使用が制限されています</string>
+    <string name="error_share_empty_sendable_chickens_detail">「本体設定」から新しく本体を登録してください。</string>
+    <string name="error_share_empty_sendable_chickens_title">共有できる本体がありません</string>
+    <string name="error_share_invalid_app_version_detail">共有元と共有先のアプリを最新にアップデートして再度お試しください。</string>
+    <string name="error_share_invalid_app_version_title">互換性のないバージョンの共有コードです</string>
+    <string name="error_share_invalid_data_detail">"mornin' plusアプリで作成した共有コードを読み取ってください。"</string>
+    <string name="error_share_invalid_data_title">このQRコードは読み取れません</string>
+    <string name="error_share_over_chickens_detail">本体の設定を削除または、共有する本体の数を減らしてください。</string>
+    <string name="error_share_over_chickens_title">登録できる本体の最大数は4台です</string>
+    <string name="error_share_timeout_data_detail">再度共有コードを作成してください。</string>
+    <string name="error_share_timeout_data_title">共有コードの有効期限が切れています</string>
+    <string name="error_share_unexpected_detail" />
+    <string name="error_share_unexpected_title">本体の共有でエラーが発生しました</string>
+    <string name="error_timeout_detail">時間をおいて、再度お試しください。</string>
+    <string name="error_timeout_title">要求がタイムアウトしました</string>
+    <string name="error_timer_not_exist_detail">タイマーを削除してください。</string>
+    <string name="error_timer_not_exist_title">対象のタイマー情報が正しくありません</string>
+    <string name="error_timer_permission_error_detail">同じ時刻のタイマーがすでに保存されているか、設定数がオーバーしています。</string>
+    <string name="error_timer_permission_error_title">タイマーの保存に失敗しました</string>
+    <string name="error_timer_sound_limited_detail">最新のOSにアップデートしてください。</string>
+    <string name="error_timer_sound_limited_title">サウンドはiOS10以降でのみご使用いただけます</string>
+    <string name="error_timer_sound_without_related_devices_detail">対応する本体を選択しない場合は、タイマーのサウンドを「なし」にしてください。</string>
+    <string name="error_timer_sound_without_related_devices_title">サウンドに対応する本体を選択してください</string>
+    <string name="error_timer_target_not_exist_detail">タイマーを削除してください。</string>
+    <string name="error_timer_target_not_exist_title">対象のタイマー情報が正しくありません</string>
+    <string name="error_unexpected_detail">時間をおいて、再度お試しください。</string>
+    <string name="error_unexpected_title">エラーが発生しました。</string>
+    <string name="firmware">ファームウェア</string>
+    <string name="firmware_about_recovery">本体の修復を行いますか？</string>
+    <string name="firmware_about_recovery_detail">電池を変えてリセットボタンを押してもランプが光らない場合のみ、修復をお試しください。</string>
+    <string name="firmware_cancel_recovery">修復を中止する</string>
+    <string name="firmware_cancel_update">更新を中止する</string>
+    <string name="firmware_has_update_main_fmt">新しいファームウェア(%1$s)があります</string>
+    <string name="firmware_has_update_sub">所要時間は約1分です。電波が安定した場所で実施してください。</string>
+    <string name="firmware_how_to_be_recovery_mode">手動で高速点滅させる場合</string>
+    <string name="firmware_how_to_be_recovery_mode_detail">本体の電池を抜いた状態にして、リセットボタンを押しながら電池を入れてください。</string>
+    <string name="firmware_later">後で</string>
+    <string name="firmware_recovered">本体の修復が正常に完了しました</string>
+    <string name="firmware_recovering">修復しています…</string>
+    <string name="firmware_recovering_cancel_confirm">本当に修復を中止しますか？</string>
+    <string name="firmware_recovering_cancel_confirm_yes">修復を中止</string>
+    <string name="firmware_recovering_detail">修復が完了するまで、アプリを閉じたり、本体に触れたりしないでください。</string>
+    <string name="firmware_recovery">本体の修復</string>
+    <string name="firmware_recovery_blinking_main">ランプが高速点滅していますか？</string>
+    <string name="firmware_recovery_blinking_plus_sub">バッテリーカバーを開けてランプを確認してください(1秒間に5回点滅します)。</string>
+    <string name="firmware_recovery_blinking_v1_sub">本体正面のランプを確認してください(1秒間に5回点滅します)。</string>
+    <string name="firmware_recovery_finding">修復対象を探しています…</string>
+    <string name="firmware_recovery_finding_detail">修復する本体の近くで操作してください。手動で本体を高速点滅させた場合、その状態は1分間持続します。</string>
+    <string name="firmware_recovery_found">修復対象が見つかりました</string>
+    <string name="firmware_recovery_found_detail">所要時間は約1分です。</string>
+    <string name="firmware_recovery_help">修復に関するヘルプ</string>
+    <string name="firmware_recovery_not_blinking">高速点滅していない</string>
+    <string name="firmware_recovery_now">修復する</string>
+    <string name="firmware_recovery_preparation">修復の準備をしています…</string>
+    <string name="firmware_select_device_type_to_recover">修復する機種を選択してください</string>
+    <string name="firmware_update_now">更新する</string>
+    <string name="firmware_update_preparation">更新の準備をしています…</string>
+    <string name="firmware_updated">ファームウェアの更新が正常に完了しました</string>
+    <string name="firmware_updating">更新しています…</string>
+    <string name="firmware_updating_cancel_confirm">本当に更新を中止しますか？</string>
+    <string name="firmware_updating_cancel_confirm_yes">更新を中止</string>
+    <string name="firmware_updating_sub">更新が完了するまで、アプリを閉じたり、本体に触れたりしないでください。</string>
+    <string name="help_action_receive_sharing_code">共有コードを読み取る</string>
+    <string name="help_action_recovery">本体を修復する</string>
+    <string name="help_action_reset">本体をリセットする</string>
+    <string name="help_action_selection_main">行う動作を選択</string>
+    <string name="help_confirm_lamp_of_recovery_main">乾電池を抜き差ししても、高速点滅したままですか？</string>
+    <string name="help_confirm_lamp_of_recovery_yes">高速点滅したまま</string>
+    <string name="help_confirm_set_up_movement_close">閉まる動作</string>
+    <string name="help_confirm_set_up_movement_open">開く動作</string>
+    <string name="help_confirm_set_up_open_or_close_main">開閉のどちらの動作を設定しますか？</string>
+    <string name="help_content_already_connected_by_someone_main">共有された他のスマートフォンが接続していませんか</string>
+    <string name="help_content_already_connected_by_someone_sub">複数のスマートフォンで同時に接続することはできません。接続中のアプリを終了させるか、スマートフォンをスリープさせると一定時間で切断されるので、その後接続をお試しください。</string>
+    <string name="help_content_battery_low_main">乾電池が消耗していませんか？</string>
+    <string name="help_content_battery_low_sub">新品の乾電池に交換してお試しください。</string>
+    <string name="help_content_battery_reset_main">乾電池を抜き差ししてください</string>
+    <string name="help_content_battery_reset_sub">意図せず修復モードが起動している可能性があります。乾電池を抜き差しした上でも解決しない場合は本体の修復をお試しください。</string>
+    <string name="help_content_battery_reverse_main">乾電池の向きが間違っていませんか？</string>
+    <string name="help_content_battery_reverse_sub">乾電池の向きが正しいかご確認ください。</string>
+    <string name="help_content_bluetooth_is_unstable_main">Bluetoothが不安定になっているかもしれません</string>
+    <string name="help_content_bluetooth_is_unstable_sub">OSをアップデートした直後や、長期間Bluetoothを有効にし続けていた場合、Bluetoothが不安定になることがあります。「設定」アプリでBluetoothを一度オフにしてから再度オンにしてください。</string>
+    <string name="help_content_connection_settings_was_deleted_main">本体の接続設定を削除していませんか？</string>
+    <string name="help_content_connection_settings_was_deleted_sub">他のスマートフォンと共有している場合は、本体の接続設定を共有してもらってください。共有してない場合は本体をリセットしてから「本体設定」>「本体を追加」と進み、接続設定をやり直してください。</string>
+    <string name="help_content_curtain_reverse_posi_main">カーテンの上部がレールに引っかかっていませんか？</string>
+    <string name="help_content_curtain_reverse_posi_sub">高さを調節可能なカーテンフックをご使用の場合、引っかからないようにカーテンの高さを下げてください。</string>
+    <string name="help_content_distance_is_far_main">本体との距離が離れすぎていませんか？</string>
+    <string name="help_content_distance_is_far_sub">本体とスマートフォンを近づけてお試しください。</string>
+    <string name="help_content_install_reversed_in_back_main">カーテンの「裏」に逆向きで取り付けていませんか？</string>
+    <string name="help_content_install_reversed_in_back_sub">カーテンの裏に、本体のスイッチがカーテンに触れる向きで設置し直してください。</string>
+    <string name="help_content_install_reversed_in_front_main">カーテンの「表」に逆向きで取り付けていませんか？</string>
+    <string name="help_content_install_reversed_in_front_sub">カーテンの表に、本体のスイッチがカーテンに触れる向きで設置し直してください。</string>
+    <string name="help_content_insulating_sheet_main">絶縁シートが挟まっていませんか？</string>
+    <string name="help_content_insulating_sheet_sub">絶縁シートが電池端子に挟まっている場合は抜き取ってください。</string>
+    <string name="help_content_invalid_rail_size_main">対応カーテンレールの寸法を満たしていますか？</string>
+    <string name="help_content_invalid_rail_size_sub">"非対応のカーテンレールに取り付けると、本体が落下又は破損する恐れがあり、動作不良や故障および家財の破損、怪我の原因になります。直ちに使用を中止してください。
+対応カーテンレールの寸法はこちらからご確認頂けます。"</string>
+    <string name="help_content_lamp_become_off_by_reconnect_someone_main">他のアプリに再接続されていませんか？</string>
+    <string name="help_content_lamp_become_off_by_reconnect_someone_sub">近くに対象の本体との接続設定が残っているアプリがあると、そのアプリに再接続されます。接続するにはそのアプリから接続設定を共有してもらうか、対象の本体との接続設定を削除した後、リセットしてください。</string>
+    <string name="help_content_lamp_become_off_by_time_passed_for_v1_main">点滅させたまま時間が経ちましたか？</string>
+    <string name="help_content_lamp_become_off_by_time_passed_for_v1_sub">ランプを点滅させた後、一定時間接続しないまま経つとランプが消えて接続できなくなります。メインスイッチを再度押し込むことで再度ランプを点滅させることができます。</string>
+    <string name="help_content_lamp_blinking_fast_main">ランプが高速点滅していませんか？</string>
+    <string name="help_content_lamp_blinking_fast_sub">本体のランプを確認してください。一度アプリと接続するとランプは消えて、通常は本体をリセットするまで点灯しません。</string>
+    <string name="help_content_less_lifting_speed_main">タイヤの昇降スピードを大きくすると改善することがあります</string>
+    <string name="help_content_less_lifting_speed_sub">「本体設定」>「タイヤの昇降」から昇降スピードを大きい値に変更してください。</string>
+    <string name="help_content_less_lifting_support_main">上記でも解決しない場合はサポートにご連絡ください</string>
+    <string name="help_content_less_lifting_support_open">サポートページを開く</string>
+    <string name="help_content_less_lifting_support_sub">こちらからサポートにお問い合わせいただけます。症状をできるだけ具体的に記載いただけますと対応がスムーズになります。</string>
+    <string name="help_content_less_lifting_support_use_safety_rate">サポートの指示で補正をする</string>
+    <string name="help_content_less_power_or_duration_main">動作パワーまたは動作時間が不足していませんか？</string>
+    <string name="help_content_less_power_or_duration_sub">本体の動作パワーを上げることで、より重いカーテンを引くことができるようになります。また、動作時間を長くすることでカーテンをより広く開閉することができます。</string>
+    <string name="help_content_lifting_noise_main">カーテンレールに押し付ける力を調整しています</string>
+    <string name="help_content_lifting_noise_sub">"タイヤをレールに押し付ける力が一定になるように調整する機能です。個体差で生じるものですが故障ではありませんのでご安心ください。
+なお、上昇時間を補正することでカチカチ音を抑制することもできます。"</string>
+    <string name="help_content_lifting_safety_rate_activate">上昇時間の補正を有効にする</string>
+    <string name="help_content_lifting_safety_rate_inactivate">上昇時間の補正を無効にする</string>
+    <string name="help_content_lifting_safety_rate_sub">原則有効にしません。サポートより促された場合のみ有効にしてください。</string>
+    <string name="help_content_magnet_is_too_strong_main">マグネットの磁力が強すぎる可能性があります</string>
+    <string name="help_content_magnet_is_too_strong_sub">マグネットの磁力を弱めるため、マグネット部分にシールやテープを貼るなどして、吸着力を下げてください。</string>
+    <string name="help_content_more_silent_lift_power_main">昇降スピードをより遅くすることができます</string>
+    <string name="help_content_more_silent_lift_power_sub">「本体設定」>「高度な設定」から「より遅い昇降スピード」を有効にしてください。本体の昇降スピードをさらに遅い値に設定できるようになります。</string>
+    <string name="help_content_more_silent_set_power_low_for_v1_main">動作パワーに余剰はありませんか？</string>
+    <string name="help_content_more_silent_set_power_low_for_v1_sub">動作パワーを小さくすると動作音も小さくなります。適切に開閉ができる範囲で動作パワーを設定してみてください。</string>
+    <string name="help_content_more_silent_set_power_low_main">動作パワー・昇降スピードに余剰はありませんか？</string>
+    <string name="help_content_more_silent_set_power_low_sub">動作パワーや昇降スピードを小さくすると動作音も小さくなります。適切に動作する範囲で値をそれぞれ設定してください。</string>
+    <string name="help_content_motor_protection_for_v1_main">モーターの保護機能が働いている可能性があります</string>
+    <string name="help_content_motor_protection_for_v1_sub">"mornin'は動作パワーが「5以上」で、カーテンレールの対応寸法を満たしていない、もしくはカーテンが重い・硬い・何かに引っかかっている、経年などの理由で過負荷がタイヤに加わると、モーターが壊れないように非常停止します。
+過負荷が発生しないように周辺環境を調整し、それでも非常停止する場合は動作パワーを「4以下」に設定してご使用ください。"</string>
+    <string name="help_content_opposite_collabo_posi_for_back_main">カーテンの「表」に取り付けていませんか？</string>
+    <string name="help_content_opposite_collabo_posi_for_back_sub">この本体の設置位置はカーテンの「裏」になっています。設置位置はこちら、または「本体設定」から変更できます。</string>
+    <string name="help_content_opposite_collabo_posi_for_front_main">カーテンの「裏」に取り付けていませんか？</string>
+    <string name="help_content_opposite_collabo_posi_for_front_sub">この本体の設置位置はカーテンの「表」になっています。設置位置はこちら、または「本体設定」から変更できます。</string>
+    <string name="help_content_opposite_posi_for_left_main">「右」に開くカーテンに取り付けていませんか？</string>
+    <string name="help_content_opposite_posi_for_left_sub">この本体の開く方向は「左」になっています。開く方向は「本体設定」から変更できます。</string>
+    <string name="help_content_opposite_posi_for_right_main">「左」に開くカーテンに取り付けていませんか？</string>
+    <string name="help_content_opposite_posi_for_right_sub">この本体の開く方向は「右」になっています。開く方向は「本体設定」から変更できます。</string>
+    <string name="help_content_opposite_posi_for_unknown_main">反対のカーテンに取り付けていませんか？</string>
+    <string name="help_content_opposite_posi_for_unknown_sub">この本体の開く方向は一度接続して「本体設定」よりご確認ください。</string>
+    <string name="help_content_opposite_side_not_resolved_main">上記でも解決しない場合</string>
+    <string name="help_content_opposite_side_not_resolved_sub">こちらからお進みください。</string>
+    <string name="help_content_rail_trouble_main">レール内部にネジの出っ張りや、レール自体に歪み、錆などがありませんか？</string>
+    <string name="help_content_rail_trouble_sub">カーテンレールの内部にネジ頭などの出っ張りや、レール自体に歪みや錆があると、適切に動作しないことがあります。ネジ頭を締めて出っ張りを低くする、歪みを平らに直す、錆を落とすなどの調整を行ってください。</string>
+    <string name="help_content_reverse_movement_changed">動作方向を反転しました</string>
+    <string name="help_content_reverse_movement_init">動作方向を初期化しました</string>
+    <string name="help_content_reverse_movement_sub">原則初期状態で使用します。</string>
+    <string name="help_content_reverse_movement_to_change">動作方向を反転する</string>
+    <string name="help_content_reverse_movement_to_init">動作方向を初期値に戻す</string>
+    <string name="help_content_reversed_movement_main">この本体は動作方向が反転しています</string>
+    <string name="help_content_reversed_movement_sub">以前に動作方向を反転するよう設定されています。動作方向を元に戻す場合はこちらからお進みください。</string>
+    <string name="help_content_set_power_in_detail_main">「細かな数値設定」を有効にすることで細かく値を設定できます</string>
+    <string name="help_content_set_power_in_detail_sub">「本体設定」>「高度な設定」から「細かな数値設定」を有効にしてください。本体の動作パワー、昇降スピードを細かく設定できるようになります。</string>
+    <string name="help_content_someone_has_connection_settings_main">既に他のスマートフォンと接続設定済みではありませんか？</string>
+    <string name="help_content_someone_has_connection_settings_sub">接続設定を共有してもらうか、各アプリから対象の本体の接続設定を削除した後、本体をリセットしてください。</string>
+    <string name="help_content_timer_check_battery_reset_main">電池を抜き差しした後タイマーを再登録してください</string>
+    <string name="help_content_timer_check_battery_reset_sub">登録済みのタイマーを一度全て無効にし、再度登録してください。</string>
+    <string name="help_content_timer_check_device_reset_main">上記で解決しない場合は本体をリセットしてください</string>
+    <string name="help_content_timer_check_device_reset_sub">本体をリセットすると本体内部に登録されているタイマーが全て消えるので、再度タイマーを登録してください。</string>
+    <string name="help_content_timer_check_invalid_main">タイマーが無効になっていませんか？</string>
+    <string name="help_content_timer_check_invalid_sub">タイマーのスイッチを押して有効にしてください。繰り返しをしない場合は一度タイマーが動作すると無効になります。</string>
+    <string name="help_content_timer_check_refresh_main">タイマーが最新の状態になっていますか？</string>
+    <string name="help_content_timer_check_refresh_sub">対象の本体と接続されている状態で、タイマー一覧画面で下に引っ張って最新の状態に更新してください。基本的に本体と接続した際にタイマー情報は自動で更新されるので、タイマーの挙動がおかしい場合のみ、手動で更新を行ってください。</string>
+    <string name="help_content_timer_check_repeat_main">繰り返しは適切に設定されていますか？</string>
+    <string name="help_content_timer_check_repeat_sub">繰り返しで曜日が設定されている場合は、その曜日の指定時刻にのみ動作します。繰り返しで曜日を選択していない場合は、次にその時刻になったときに一度だけ動作します。</string>
+    <string name="help_content_timer_check_target_main">タイマー設定で対象の本体が選択されていますか？</string>
+    <string name="help_content_timer_check_target_sub">対象の本体が設定されていない場合は、対象を選択した後保存してください。</string>
+    <string name="help_content_timer_check_unexpected_time_main">タイマーが明日になっていませんか？</string>
+    <string name="help_content_timer_check_unexpected_time_sub">繰り返しの曜日を選択せず、既に過ぎた時間を指定した場合はタイマーが翌日に動作します。タイマー一覧から対象のタイマーが「明日」になっていないかご確認ください。</string>
+    <string name="help_content_timer_drift_main">本アプリと接続した際に本体内蔵の時計が補正されます</string>
+    <string name="help_content_timer_drift_sub">本製品は一般的な時計と同様に、日数が経過するにつれて本体の時刻がわずかにずれる場合があります。…正確な時刻に動作させるために、定期的に本アプリと本体を接続してください。</string>
+    <string name="help_content_timer_not_act_after_reset_battery_main">電池を交換した後は必ず一度アプリと接続してください</string>
+    <string name="help_content_timer_not_act_after_reset_battery_sub">電池を抜き差しした場合、本体内蔵の時計が初期化されてしまうので、タイマーが適切に動作しなくなります。必ずアプリと接続して内蔵時計を補正してください（接続時に自動で補正されます）。</string>
+    <string name="help_content_timer_not_act_check_timer_main">上記で解決しなかった場合</string>
+    <string name="help_content_timer_not_act_check_timer_sub">タイマーが適切に設定されているか確認します。</string>
+    <string name="help_content_timer_not_act_try_remocon_main">リモコンで開閉ができますか？</string>
+    <string name="help_content_timer_not_act_try_remocon_sub">"リモコンで開閉できない場合は、ヘルプの「カーテンの開閉ができない・不十分」をご確認ください。
+リモコンでは開閉できるがタイマーで動作しない場合は下の項目にお進みください。"</string>
+    <string name="help_content_unexpected_in_front_main">カーテンの「表」に取り付けていませんか？</string>
+    <string name="help_content_unexpected_in_front_sub">この機種はカーテンの裏に、本体のスイッチ面がカーテンに触れる向きで設置し直してください。</string>
+    <string name="help_content_wrong_device_type_main">対象の本体の選択機種を間違えていませんか？</string>
+    <string name="help_content_wrong_device_type_sub">選択画面まで戻ってから適切な機種を選択し直してください。</string>
+    <string name="help_dialog_confirm_save_before_action_detail">本体を動作させるために変更を保存する必要があります</string>
+    <string name="help_dialog_confirm_save_before_action_title">ここまでの変更を保存します</string>
+    <string name="help_dialog_confirm_save_delete">破棄する</string>
+    <string name="help_dialog_confirm_save_detail">編集内容を保存しますか？</string>
+    <string name="help_dialog_confirm_save_save">保存する</string>
+    <string name="help_dialog_confirm_save_title">編集された内容はまだ保存されていません</string>
+    <string name="help_dialog_high_speed_detail">ハイスピードモードをオンにすると、リモコン操作時のみカーテンを速く開閉できます。</string>
+    <string name="help_dialog_high_speed_title">ハイスピードモードとは？</string>
+    <string name="help_dialog_invalid_pairing_detail">接続するには、接続できるユーザから共有してもらうか、本体をリセットする必要があります。</string>
+    <string name="help_dialog_invalid_pairing_title">接続設定が無効です</string>
+    <string name="help_dialog_later">後で</string>
+    <string name="help_dialog_motor_protection_enabled_detail">動作させてすぐに止まる場合は、パワーを4以下に変更してください。</string>
+    <string name="help_dialog_motor_protection_enabled_title">パワー5以上の場合、モーター保護機能が働きます</string>
+    <string name="help_dialog_ok">OK</string>
+    <string name="help_dialog_remocon_selection_detail">いずれかひとつだけリモコン操作したい時は、タップしてチェックマークを外しましょう。</string>
+    <string name="help_dialog_remocon_selection_title">リモコンの便利な使い方</string>
+    <string name="help_dialog_settings">設定する</string>
+    <string name="help_dialog_settings_v1_detail">開閉パワーや昇降スピードを調整して、思い通りに開閉するようにしましょう。</string>
+    <string name="help_dialog_settings_v1_title">動作を調整できます</string>
+    <string name="help_dialog_timer_tips_detail">目覚めたい時刻の少し前から太陽光を浴びると、自然に起きられると言われています。</string>
+    <string name="help_dialog_timer_tips_title">気持ち良い目覚めのヒント</string>
+    <string name="help_dialog_using_slow_lifting_detail">共有相手が高度な設定を有効にしている場合、全ての共有先で有効になります。</string>
+    <string name="help_dialog_using_slow_lifting_title">高度な設定が有効になりました</string>
+    <string name="help_faq">よくある質問</string>
+    <string name="help_help_for_connection">接続に関するヘルプ</string>
+    <string name="help_help_for_movement">動作に関するヘルプ</string>
+    <string name="help_lifting_safety_rate_activated_main">上昇時間の補正が有効になりました</string>
+    <string name="help_lifting_safety_rate_activated_sub">「本体設定」>「タイヤの昇降」から補正することができます。</string>
+    <string name="help_lifting_safety_rate_initialized_main">本体の上昇時間の補正を初期化しました</string>
+    <string name="help_lifting_safety_rate_initialized_sub">再度補正する場合には、上昇時間の補正を有効にしたあとで本体の補正値を変更してください。</string>
+    <string name="help_lifting_safety_rate_title">上昇時間の補正</string>
+    <string name="help_reset_main">ランプが点滅するようにリセットボタンを細い棒で押してください</string>
+    <string name="help_reset_title">本体のリセット</string>
+    <string name="help_reverse_movement_title">動作方向の反転</string>
+    <string name="help_section_could_not_act_timer_correctly">タイマーが適切に動作しない</string>
+    <string name="help_section_could_not_connect_with_lamp_blinking_slowly">ゆっくり点滅しているが接続できない</string>
+    <string name="help_section_could_not_move_by_magnet">カーテンのマグネットが外せない</string>
+    <string name="help_section_could_not_move_sufficiently">カーテンの開閉ができない・不十分</string>
+    <string name="help_section_could_not_reconnect">本体と接続できない</string>
+    <string name="help_section_feedback">開発チームに意見や感想を送る</string>
+    <string name="help_section_lamp_become_off">点滅していたランプが消えた</string>
+    <string name="help_section_lamp_blinking_fast">ランプが高速点滅している</string>
+    <string name="help_section_lamp_is_off">ランプが点滅していない</string>
+    <string name="help_section_less_lifting">タイヤの上昇が不十分で空回りしてしまう</string>
+    <string name="help_section_less_movement">動作するがカーテンの開閉が不十分</string>
+    <string name="help_section_more_silent">もっと静かに動作させたい</string>
+    <string name="help_section_move_to_opposite_side">逆方向に移動してしまう</string>
+    <string name="help_section_other_device_help">その他の本体の動作について</string>
+    <string name="help_section_over_lifting">タイヤの上昇中にカチカチと音がなる</string>
+    <string name="help_section_set_power_in_detail">動作パワー、昇降スピードを細かく設定したい</string>
+    <string name="help_section_stop_a_few_secs_for_v1">動作するが数秒程度で止まってしまう</string>
+    <string name="help_section_stop_by_rail">レールの特定の箇所で止まってしまう</string>
+    <string name="help_section_support_other">他のQ&amp;Aを確認する</string>
+    <string name="help_section_timer_could_not_move_sufficiently">指定時刻に動作するが開閉が不十分</string>
+    <string name="help_section_timer_drift">タイマーの動作時刻がずれる</string>
+    <string name="help_section_timer_not_act">指定時刻に動作しない</string>
+    <string name="help_section_timer_not_act_after_reset_battery">電池を交換した後タイマーが適切に動作しない</string>
+    <string name="help_select_target_device">対象の本体を選択してください</string>
+    <string name="help_select_target_version">対象の機種を選択してください</string>
+    <string name="language">Japanese</string>
+    <string name="location_denied_message">"Androidの仕様上、Bluetooth通信には
+位置情報の許可が必要です"</string>
+    <string name="menu_about_app">アプリについて</string>
+    <string name="menu_add">追加</string>
+    <string name="menu_chicken_settings">本体設定</string>
+    <string name="menu_company">会社概要</string>
+    <string name="menu_external">アプリ連携</string>
+    <string name="menu_external_about_generate">連携コード作成</string>
+    <string name="menu_external_about_help">アプリ連携について</string>
+    <string name="menu_external_about_main">"対応する連携アプリからmornin' plusを操作できます"</string>
+    <string name="menu_external_about_revoke">連携を解除</string>
+    <string name="menu_external_about_sub">詳しくはアプリ連携についてをご覧ください。</string>
+    <string name="menu_external_about_title">アプリ連携</string>
+    <string name="menu_external_about_type_copy_code">クリップボードにコピー</string>
+    <string name="menu_external_about_type_selection_main">連携コード作成</string>
+    <string name="menu_external_about_type_show_qr">QRコードで表示</string>
+    <string name="menu_external_confirm_revode_main">連携している全てのサービスで使用できなくなり、再度使用するためには連携し直す必要があります。</string>
+    <string name="menu_external_confirm_revode_yes">アプリ連携を解除</string>
+    <string name="menu_external_copied_main">連携コードをコピーしました</string>
+    <string name="menu_external_copied_sub">対応アプリの連携コード入力欄にペーストしてください。</string>
+    <string name="menu_external_empty_v2_detail">"アプリ連携をご利用になるためにはmornin' plusが必要となります。"</string>
+    <string name="menu_external_empty_v2_title">"連携可能なmornin' plusがありません"</string>
+    <string name="menu_external_revoked_title">連携を解除しました</string>
+    <string name="menu_external_select_collabo_chickens_title">連携する本体を選択</string>
+    <string name="menu_external_select_revoke_chickens_title">連携を解除する本体を選択</string>
+    <string name="menu_external_show_qr_sub">対応アプリから読み取ってください。うまく読み取れないときは画面を明るくしてください。</string>
+    <string name="menu_help">ヘルプ</string>
+    <string name="menu_initialize">アプリを初期化</string>
+    <string name="menu_initialize_alert_title">初期化後は本体のリセットボタンを押すことで、再度アプリと接続できるようになります。</string>
+    <string name="menu_initialize_ok">アプリを初期化</string>
+    <string name="menu_nogizaka_awy">乃木坂46AWY連携</string>
+    <string name="menu_privacy_policy">プライバシーポリシー</string>
+    <string name="menu_regulatory">認証</string>
+    <string name="menu_remocon">リモコン</string>
+    <string name="menu_share">共有コード作成</string>
+    <string name="menu_terms">利用規約</string>
+    <string name="menu_timer">タイマー</string>
+    <string name="menu_version_fmt">バージョン %1$s</string>
+    <string name="mitchiri_neko">みっちりねこ</string>
+    <string name="mitchiri_neko_notif_title_close">カーテンを閉めるにゃ</string>
+    <string name="mitchiri_neko_notif_title_open">カーテンを開けるにゃ</string>
+    <string name="mitchiri_neko_voice_fmt">鳴き声%1$d</string>
+    <string name="mitchiri_neko_voice_random">ランダム</string>
+    <string name="next">次へ</string>
+    <string name="no">いいえ</string>
+    <string name="nogialarm_about_awy">乃木坂46AWYについて</string>
+    <string name="nogialarm_confirm_send_timer_main">タイマー設定を送信しますか？</string>
+    <string name="nogialarm_confirm_send_timer_sub">「乃木坂46~always with you~」に移動します。</string>
+    <string name="nogialarm_confirm_send_timer_yes">送信する</string>
+    <string name="nogialarm_edit_confirm_revoke_title">連携を解除しても、パッケージ同梱のシリアルコードを他のユーザーIDに結びつけることはできません。</string>
+    <string name="nogialarm_edit_confirm_revoke_yes">乃木坂46AWY連携を解除</string>
+    <string name="nogialarm_edit_main">乃木坂46AWYのユーザーIDを、上記フォームに入力してください</string>
+    <string name="nogialarm_edit_revoke">連携を削除</string>
+    <string name="nogialarm_edit_sub">「乃木坂46 ~always with you~」のメニューの下部に記載されています。</string>
+    <string name="nogialarm_edit_user_id_saved_main">ユーザーIDを保存しました</string>
+    <string name="nogialarm_install_app">アプリをインストールする</string>
+    <string name="nogialarm_name_of_ami_noujo">能條 愛未</string>
+    <string name="nogialarm_name_of_asuka_saito">齋藤 飛鳥</string>
+    <string name="nogialarm_name_of_ayane_suzuki">鈴木 絢音</string>
+    <string name="nogialarm_name_of_ayano_christie_yoshida">吉田 綾乃 クリスティー</string>
+    <string name="nogialarm_name_of_chiharu_saito">斎藤 ちはる</string>
+    <string name="nogialarm_name_of_erika_ikuta">生田 絵梨花</string>
+    <string name="nogialarm_name_of_hazuki_mukai">向井 葉月</string>
+    <string name="nogialarm_name_of_hina_higuchi">樋口 日奈</string>
+    <string name="nogialarm_name_of_hina_kawago">川後 陽菜</string>
+    <string name="nogialarm_name_of_hinako_kitano">北野 日奈子</string>
+    <string name="nogialarm_name_of_iori_sagara">相楽 伊織</string>
+    <string name="nogialarm_name_of_junna_ito">伊藤 純奈</string>
+    <string name="nogialarm_name_of_kaede_sato">佐藤 楓</string>
+    <string name="nogialarm_name_of_kana_nakada">中田 花奈</string>
+    <string name="nogialarm_name_of_karin_ito">伊藤 かりん</string>
+    <string name="nogialarm_name_of_kazumi_takayama">高山 一実</string>
+    <string name="nogialarm_name_of_kotoko_sasaki">佐々木 琴子</string>
+    <string name="nogialarm_name_of_maaya_wada">和田 まあや</string>
+    <string name="nogialarm_name_of_mahiro_kawamura">川村 真洋</string>
+    <string name="nogialarm_name_of_mai_shinuchi">新内 眞衣</string>
+    <string name="nogialarm_name_of_mai_shiraishi">白石 麻衣</string>
+    <string name="nogialarm_name_of_manatsu_akimoto">秋元 真夏</string>
+    <string name="nogialarm_name_of_minami_hoshino">星野 みなみ</string>
+    <string name="nogialarm_name_of_minami_umezawa">梅澤 美波</string>
+    <string name="nogialarm_name_of_miona_hori">堀 未央奈</string>
+    <string name="nogialarm_name_of_miria_watanabe">渡辺 みり愛</string>
+    <string name="nogialarm_name_of_misa_eto">衛藤 美彩</string>
+    <string name="nogialarm_name_of_mizuki_yamashita">山下 美月</string>
+    <string name="nogialarm_name_of_momoko_ozono">大園 桃子</string>
+    <string name="nogialarm_name_of_nanase_nishino">西野 七瀬</string>
+    <string name="nogialarm_name_of_nogizaka_awy">乃木坂46</string>
+    <string name="nogialarm_name_of_ranze_terada">寺田 蘭世</string>
+    <string name="nogialarm_name_of_reika_sakurai">桜井 玲香</string>
+    <string name="nogialarm_name_of_rena_yamazaki">山崎 怜奈</string>
+    <string name="nogialarm_name_of_renka_iwamoto">岩本 蓮加</string>
+    <string name="nogialarm_name_of_reno_nakamura">中村 麗乃</string>
+    <string name="nogialarm_name_of_rina_ikoma">生駒 里奈</string>
+    <string name="nogialarm_name_of_riria_ito">伊藤 理々杏</string>
+    <string name="nogialarm_name_of_sayuri_inoue">井上 小百合</string>
+    <string name="nogialarm_name_of_sayuri_matsumura">松村 沙友理</string>
+    <string name="nogialarm_name_of_shiori_kubo">久保 史緒里</string>
+    <string name="nogialarm_name_of_tamami_sakaguchi">阪口 珠美</string>
+    <string name="nogialarm_name_of_yumi_wakatsuki">若月 佑美</string>
+    <string name="nogialarm_name_of_yuuki_yoda">与田 祐希</string>
+    <string name="nogialarm_name_of_yuuri_saito">斉藤 優里</string>
+    <string name="nogialarm_navi_title">乃木坂46AWY連携</string>
+    <string name="nogialarm_select_sending_timer_member">メンバーを選択してください</string>
+    <string name="nogialarm_selection_serial_code">シリアルコード</string>
+    <string name="nogialarm_selection_user_id">ユーザーID</string>
+    <string name="nogialarm_set_up_app_main">アプリのインストール・初期設定を行なってください</string>
+    <string name="nogialarm_set_up_get_user_id_main">乃木坂46AWYのユーザーIDをメモしてください</string>
+    <string name="nogialarm_set_up_get_user_id_sub">メイン画面のメニューの最下部に記載されています。</string>
+    <string name="nogialarm_set_up_serial_code_main">パッケージ同梱のシリアルコードを特設サイトで入力してください</string>
+    <string name="nogialarm_set_up_serial_code_open_web">コラボ特設サイトを開く</string>
+    <string name="nogialarm_set_up_set_user_id_main">メモしたユーザーIDを、上記フォームに入力してください</string>
+    <string name="nogialarm_set_up_set_user_id_placeholder">ユーザーID</string>
+    <string name="nogialarm_set_up_set_user_id_sub">ユーザーIDを間違えるとOPENタイマー情報を送信できませんのでご注意ください。</string>
+    <string name="nogialarm_set_up_start_confirm_later_main">タイマー設定を連携できませんが、よろしいですか？</string>
+    <string name="nogialarm_set_up_start_confirm_later_sub">メニューの「アプリについて」内の「乃木坂46AWY連携」で設定できます。</string>
+    <string name="nogialarm_set_up_start_later">後で連携する</string>
+    <string name="nogialarm_set_up_start_main">乃木坂46AWY連携を行います</string>
+    <string name="nogialarm_set_up_start_sub">本アプリで設定したOPENタイマーの設定を「乃 木坂46 ~always with you~」に送信することがで きます（乃木坂46AWYのタイマーを受信することはできません）。</string>
+    <string name="ok">OK</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_name_camera">カメラ</string>
+    <string name="permission_name_location">位置情報</string>
+    <string name="privacy">プライバシーポリシー</string>
+    <string name="privacy_detail1">本プライバシーポリシーにおいて、「個人情報」とは、個人情報保護法にいう、生存する個人に関する情報であって、当該情報に含まれる氏名、住所、電話番号、メールアドレス及びその他の記述等により特定の個人を認識することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができるものを含みます。）をいいます。</string>
+    <string name="privacy_detail2">"当社は、個人情報の入手を適法かつ公正な手段によっておこないます。
+当社は、個人情報を収集する場合、その利用目的を予め通知または公表いたします。"</string>
+    <string name="privacy_detail3">"当社は、収集した個人情報を以下の目的で利用することができるものとします。なお、情報をご提供いただけない場合、本アプリおよび本サービスの全部あるいは一部をご利用いただけないことがございます。
+• 当社サイト・アプリ・サービス・システムの運営、利便性の向上およびお知らせなどのご案内
+• アフターサービス、苦情対応
+• 新サービス、新機能の開発
+• 利用者を特定できない形でのマッチング広告の提供
+• マーケティングデータの調査、統計、分析
+• システムの維持、不具合対応
+• 本人確認、料金の算出・請求および不正利用防止等
+• その他お問い合わせなどへの対応等"</string>
+    <string name="privacy_detail4">"当社は、個人情報保護法に基づき、収集した個人情報等を事前に本人の同意を得ることなく、第三者に提供しないものとします。
+但し、以下の各号に該当する場合には、この限りではありません。
+• 集計及び分析等により得られたものを、個人を識別又は特定できない態様にて提携先等第三者に開示又は提供する場合。
+• 利用目的の達成のために当社が行う業務の全部または一部を第三者に委託する場合。
+• 法令により開示が認められている場合。
+• 裁判所の発する令状その他裁判所の決定、命令又は法令に基づき開示する場合。
+• 当社の権利行使に必要な場合。
+• 検察・警察・監督官庁からの適法・適式な情報の照会があった場合。
+• 人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難である場合。
+• 保険金請求のために保険会社に開示する場合。
+• サービスに関わる部分の事業譲渡、会社分割等の事業承継が行われ、譲渡先に対して法的に権利義務一切が引き継がれる場合。"</string>
+    <string name="privacy_detail5">"本アプリにおいて、外部のサイトへのリンクが貼られた場合、この外部のサイトで登録される個人情報は、当社で管轄する情報ではないため、一切の責任を負うことができません。
+外部サイトで個人情報を登録される際は、そのサイトのプライバシーポリシーをご確認ください。"</string>
+    <string name="privacy_detail6">"当社は、全ての個人情報に対し、不正アクセス、盗難、紛失、滅失、破壊、改ざん、棄損及び漏えい等を防止するため、必要な予防・是正措置を講じ、適正に管理します。
+また、個人情報の処理を第三者に委託する場合は、個人情報保護を規定した契約を締結するとともに、適正な管理が行われるよう管理・監督します。"</string>
+    <string name="privacy_detail7">当社は、利用目的の達成に必要な範囲において、利用者の個人情報等を正確かつ細心の内容に保つよう努めるものとします。</string>
+    <string name="privacy_detail8">当社は、利用者より、当該利用者の個人情報の照会・訂正・追加・削除・利用の停止または消去を求められた場合、本人確認を実施のうえ、本人による照会等であると確認された場合には、速やかに同照会等に対応します。</string>
+    <string name="privacy_detail9">"本プライバシーポリシーの内容は予告なく変更される場合があります。
+変更が生じた場合は本アプリ内に掲示することで利用者の皆様へお知らせし、変更後のプライバシーポリシーを掲載した時点で変更の効力を生じるものとします。"</string>
+    <string name="privacy_footer">"【個人情報の取扱いに関するお問い合わせ先】
+株式会社ロビット　お問い合わせ窓口
+info@robit.co.jp
+
+2016年3月7日　制定"</string>
+    <string name="privacy_header">"株式会社ロビット（以下、当社）は、個人情報保護の重要性を強く認識し、以下の方針に基づき個人情報の保護に努めます。
+当社が提供するスマートフォン用アプリケーション「mornin' plus」（以下「本アプリ」といいます）および本アプリに関するサービス（以下「本サービス」といいます）をご利用になる皆様（以下「利用者」といいます）の情報を以下のように取り扱うものとします。"</string>
+    <string name="privacy_policy_detail">"株式会社ロビット（以下、当社）は、個人情報保護の重要性を強く認識し、以下の方針に基づき個人情報の保護に努めます。
+当社が提供するスマートフォン用アプリケーション「mornin' plus」（以下「本アプリ」といいます）および本アプリに関するサービス（以下「本サービス」といいます）をご利用になる皆様（以下「利用者」といいます）の情報を以下のように取り扱うものとします。
+
+ 1．定義
+ 本プライバシーポリシーにおいて、「個人情報」とは、個人情報保護法にいう、生存する個人に関する情報であって、当該情報に含まれる氏名、住所、電話番号、メールアドレス及びその他の記述等により特定の個人を認識することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができるものを含みます。）をいいます。
+
+ 2．個人情報の収集
+ 当社は、個人情報の入手を適法かつ公正な手段によっておこないます。
+当社は、個人情報を収集する場合、その利用目的を予め通知または公表いたします。
+
+ 3．個人情報の利用目的
+ 当社は、収集した個人情報を以下の目的で利用することができるものとします。なお、情報をご提供いただけない場合、本アプリおよび本サービスの全部あるいは一部をご利用いただけないことがございます。
+• 当社サイト・アプリ・サービス・システムの運営、利便性の向上およびお知らせなどのご案内
+• アフターサービス、苦情対応
+• 新サービス、新機能の開発
+• 利用者を特定できない形でのマッチング広告の提供
+• マーケティングデータの調査、統計、分析
+• システムの維持、不具合対応
+• 本人確認、料金の算出・請求および不正利用防止等
+• その他お問い合わせなどへの対応等
+
+ 4．情報提供
+ 当社は、個人情報保護法に基づき、収集した個人情報等を事前に本人の同意を得ることなく、第三者に提供しないものとします。
+但し、以下の各号に該当する場合には、この限りではありません。
+• 集計及び分析等により得られたものを、個人を識別又は特定できない態様にて提携先等第三者に開示又は提供する場合。
+• 利用目的の達成のために当社が行う業務の全部または一部を第三者に委託する場合。
+• 法令により開示が認められている場合。
+• 裁判所の発する令状その他裁判所の決定、命令又は法令に基づき開示する場合。
+• 当社の権利行使に必要な場合。
+• 検察・警察・監督官庁からの適法・適式な情報の照会があった場合。
+• 人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難である場合。
+• 保険金請求のために保険会社に開示する場合。
+• サービスに関わる部分の事業譲渡、会社分割等の事業承継が行われ、譲渡先に対して法的に権利義務一切が引き継がれる場合。
+
+ 5．リンク先等の個人情報の取り扱いについて
+ 本アプリにおいて、外部のサイトへのリンクが貼られた場合、この外部のサイトで登録される個人情報は、当社で管轄する情報ではないため、一切の責任を負うことができません。
+外部サイトで個人情報を登録される際は、そのサイトのプライバシーポリシーをご確認ください。
+
+ 6．管理体制について
+ 当社は、全ての個人情報に対し、不正アクセス、盗難、紛失、滅失、破壊、改ざん、棄損及び漏えい等を防止するため、必要な予防・是正措置を講じ、適正に管理します。
+また、個人情報の処理を第三者に委託する場合は、個人情報保護を規定した契約を締結するとともに、適正な管理が行われるよう管理・監督します。
+
+ 7．正確性の維持
+ 当社は、利用目的の達成に必要な範囲において、利用者の個人情報等を正確かつ細心の内容に保つよう努めるものとします。
+
+ 8．照会等
+ 当社は、利用者より、当該利用者の個人情報の照会・訂正・追加・削除・利用の停止または消去を求められた場合、本人確認を実施のうえ、本人による照会等であると確認された場合には、速やかに同照会等に対応します。
+
+ 9．改訂について
+ 本プライバシーポリシーの内容は予告なく変更される場合があります。
+変更が生じた場合は本アプリ内に掲示することで利用者の皆様へお知らせし、変更後のプライバシーポリシーを掲載した時点で変更の効力を生じるものとします。
+
+ 【個人情報の取扱いに関するお問い合わせ先】
+株式会社ロビット　お問い合わせ窓口
+info@robit.co.jp
+
+2016年3月7日　制定
+
+"</string>
+    <string name="privacy_section1">1．定義</string>
+    <string name="privacy_section2">2．個人情報の収集</string>
+    <string name="privacy_section3">3．個人情報の利用目的</string>
+    <string name="privacy_section4">4．情報提供</string>
+    <string name="privacy_section5">5．リンク先等の個人情報の取り扱いについて</string>
+    <string name="privacy_section6">6．管理体制について</string>
+    <string name="privacy_section7">7．正確性の維持</string>
+    <string name="privacy_section8">8．照会等</string>
+    <string name="privacy_section9">9．改訂について</string>
+    <string name="remocon">リモコン</string>
+    <string name="request_location_main">位置情報を許可してください</string>
+    <string name="request_location_sub">本体と通信するために必要です。弊社では位置情報を保存しておりません。</string>
+    <string name="request_location_title">位置情報</string>
+    <string name="root_info_title">アプリ情報</string>
+    <string name="root_license">ライセンス</string>
+    <string name="root_version">バージョン</string>
+    <string name="save">保存</string>
+    <string name="search_menu_title">Search</string>
+    <string name="share_about_help">共有に関するヘルプ</string>
+    <string name="share_about_sub">ラベル以外のタイマー設定や、本体設定の一部が同期されます。詳しくはヘルプをご覧ください。</string>
+    <string name="share_permission_camera_toast">共有コードを読み込むにはカメラの許可が必要です</string>
+    <string name="share_receiver_about_main">本体設定を他のスマートフォンから共有してもらえます</string>
+    <string name="share_receiver_read">共有コード読み取り</string>
+    <string name="share_receiver_read_main">作成した共有コードを読み取ってください</string>
+    <string name="share_receiver_read_sub">専用アプリのメニューを開き「共有コード作成」をタップしてください。</string>
+    <string name="share_receiver_reading_sub">画面に共有コードを写してください。自動で認識します。</string>
+    <string name="share_receiver_shared_info_main">本体とスマートフォンを、同時に2台以上は接続できません</string>
+    <string name="share_receiver_shared_info_sub">別のスマートフォンでアプリを閉じてから操作してください。</string>
+    <string name="share_receiver_shared_main">本体設定の共有が完了しました</string>
+    <string name="share_receiver_title">共有コード読み取り</string>
+    <string name="share_sender_about_main">設定を他のスマートフォンと共有し、本体を共有利用できます</string>
+    <string name="share_sender_generate_code">共有コード作成</string>
+    <string name="share_sender_generate_code_sub">うまく読み取れないときは画面を明るくしてください。</string>
+    <string name="share_sender_select_device">共有する本体を選択</string>
+    <string name="share_sender_step1_main">2台目のスマートフォンに専用アプリをインストールしてください</string>
+    <string name="share_sender_step1_sub">その後、アプリを起動してください。</string>
+    <string name="share_sender_step2_main">「共有コード読み取り」をタップしてください</string>
+    <string name="share_sender_step2_sub">共有コードを読み取るためにカメラが起動します。</string>
+    <string name="share_sender_step3_main">2台目のスマートフォンで共有コードを読み取ってください</string>
+    <string name="share_sender_step3_sub">次の画面で共有したい本体を選択し、共有コードを作成します。</string>
+    <string name="share_sender_title">共有コード作成</string>
+    <string name="status_bar_battery_middle">電池残量が減っています</string>
+    <string name="status_bar_ble_off">Bluetoothをオンにしてください</string>
+    <string name="status_bar_connected">接続済みです</string>
+    <string name="status_bar_connecting">探しています…</string>
+    <string name="status_bar_deleted_timer">タイマーを削除しました</string>
+    <string name="status_bar_detail">詳細</string>
+    <string name="status_bar_has_firmware_update">ファームウェアの更新があります</string>
+    <string name="status_bar_inactivated_timer">タイマー無効にしました</string>
+    <string name="status_bar_invalid_pairing">接続設定が無効になっています</string>
+    <string name="status_bar_invalid_pairing_with_detail">接続設定が無効です</string>
+    <string name="status_bar_less_battery">電池を交換してください</string>
+    <string name="status_bar_lifting_up_some_tires">一部本体のタイヤが上昇中です</string>
+    <string name="status_bar_lifting_up_tire">本体のタイヤが上昇中です</string>
+    <string name="status_bar_location_not_granted">位置情報を許可してください</string>
+    <string name="status_bar_location_off">位置情報をオンにしてください</string>
+    <string name="status_bar_never_connected">一度も接続されていません</string>
+    <string name="status_bar_no_firmware_update">ファームウェアの更新はありません</string>
+    <string name="status_bar_not_connected_all">全ての本体が接続されていません</string>
+    <string name="status_bar_not_connected_one_of_one">本体が接続されていません</string>
+    <string name="status_bar_not_connected_some">一部の本体が接続されていません</string>
+    <string name="status_bar_not_selected_remocon_target">操作する本体を選択してください</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_bar_saved_timer">タイマーを保存しました</string>
+    <string name="status_bar_settings">設定</string>
+    <string name="status_bar_target_connected">本体が接続されました</string>
+    <string name="status_bar_target_disconnected">本体が切断されました</string>
+    <string name="terms">利用規約</string>
+    <string name="terms_detail">"「mornin' plus」は、株式会社ロビット（以下「当社」といいます）が提供するカーテン開閉装置「mornin' plus」と連携し操作を行うアプリケーション（以下「本アプリ」といいます）です。
+ユーザーは本利用規約（以下「本規約」といいます）に同意した上で、本アプリを利用するものとし、本アプリを利用することにより、本規約に同意したものとみなします。
+本規約は、本アプリがアップデートされた場合のアップデート版アプリにおいても適用されます。
+なお、未成年者は法定代理人の同意を得た上で本サービスを利用するものとし、運営会社は、本サービスが利用されたことをもって法定代理人の同意を得たものとみなします。
+
+ 第1条　ご利用にあたって
+ ユーザーは、予め本規約に同意した上で本アプリをダウンロード、インストール又は利用するものとします。
+当社は、ユーザーの承諾なく、本規約を変更することができ、本規約の変更は、変更後の本規約がユーザーに閲覧可能な状態におかれた時点より効力を生じるものとします。
+本規約の変更後に本アプリをご使用された場合、変更後の本規約に同意したものとみなします。
+本アプリが接続する第三者が提供するインターネットサービスの利用に関しては本規約のみならず、当該第三者の定める各種利用規約等の規定に従うものとします。
+
+ 第2条　対応携帯端末について
+ 本アプリを利用する前提として、本商品と通信を行うために必要となるBluetooth® Smartに対応した携帯端末をユーザーの責任で準備して頂くものとします。当社は、本サービスに対応する携帯（以下、「対応携帯端末」といいます。）に関する参考情報を、本製品の取扱説明書または当社ホームページなどに記載します。
+前項の対応携帯端末に関する情報はあくまで参考情報であって、対応携帯端末として示された端末であっても、ご利用できない場合があります。対応携帯端末であっても、お客様が実際にお持ちの携帯端末への対応状況は、お客様の責任で確認いただくものとし、当該携帯端末が対応可能か否かの通知につきましては責任を負いかねます。
+対応携帯端末については当社が一括して選定するものとします。非対応携帯端末での本サービス使用に関しては、当社は一切の責任を負いかねます。
+
+ 第3条　著作権について
+ 本アプリに関わるすべての著作権は当社および当社が正当であると判断した法人または個人に帰属するものとします。
+ 第4条　ユーザーの責任
+ ユーザーは、ユーザー自身の責任において本アプリを利用するものとし、本アプリを利用してなされた一切の行為により生じたユーザーの損害について、当社は一切の責任を負わないことに同意するものとします。
+ 第5条　個人情報の取扱
+ ユーザーが本アプリを利用するにあたって、当社に提供する個人情報については、当社は当社のプライバシーポリシーに基づき適切に取り扱うものとし、ユーザーは当社による個人情報の取得及び利用について、同意するものとします。
+ 第6条　有料サービスについて
+ 本アプリは無料でご利用いただけますが、一部サービスの利用（以下「有料サービス」といいます。）については、ユーザーは当社が別途定める利用料金を支払うものとします。
+未成年者は法定代理人の同意を得た上で有料サービスを利用するものとし、当社は、本サービスが利用されたことをもって法定代理人の同意を得たものとみなします。この場合、ユーザーは自身が未成年であることを理由として有料サービスの利用を取り消すことはできません。
+未成年のユーザーが自身を２０歳以上である、または親権者の同意を得ていないにも関わらずこれを得たと偽って有料サービスを利用した場合、未成年であることを理由に当該利用を取消すことはできないものとします。
+有料サービス利用後は、理由の有無に関わらず返金手続を行うことはできません。
+
+ 第7条　禁止事項
+ ユーザーは、本アプリの利用にあたり、次に掲げる行為を行ってはならないものとします。ユーザーの違反行為により当社に損害が生じた場合、ユーザーはその損害を賠償する責任を負うものとします。
+本アプリを個人的な利用を超えて、商業・営利目的において使用すること。ただし、当社が別途書面で承諾した場合を除きます。
+当社又は第三者の著作権、商標権、プライバシー権、肖像権、名誉等の権利を侵害し、またはそのおそれのある行為を行うこと。
+リバースエンジニアリング、逆コンパイル、逆アセンブルその他の解析、分析を行うこと。(当社に許可を得た場合を除きます。)
+法令、公序良俗又は本利用規約等に違反する行為を行うこと。
+その他当社が不適切と判断するもの。
+
+ 第8条　免責事項
+ 当社は、本アプリが第三者の権利を侵害していないことを保証するものではありません。万一、本アプリが第三者の権利を侵害し、又はそのおそれがあることが判明したときは、ユーザーは速やかに本アプリを消去するものとします。
+当社は、本アプリについてその正確性、妥当性、適用性、有用性及び動作保証、並びに使用目的及び使用機器への適合性及びその他一切の事項について保証するものではありません。
+ユーザーが、本アプリに関して損害を被った場合であっても、その損害が当社の故意若しくは重過失によるときを除いて、当社は本アプリに関してユーザー又は第三者に生じた一切の損害について責任を負いません。なお、当社の故意または重過失により当社が責任を負う場合、賠償の範囲は、現実に発生した通常かつ直接の損害に限定されます。
+当社はユーザーが本アプリを利用して作成、および本アプリに対して投稿したコンテンツについて、保存及び復元の義務を負わないものします。重要なコンテンツについては、ユーザーが適宜バックアップを作成して下さい。
+
+ 第9条　本アプリの変更・中止
+ 当社は、本アプリの内容および配信方法を予告なく当社の裁量により機能改良、追加、中止、変更、削除またはアクセス不能とすることができ、当該機能改良、追加、中止、変更、削除またはアクセス不能となったことによりユーザーが損害を被ったとしても、当社は一切賠償の責を負わないものとします。
+当社は、ユーザーが本利用規約に違反しまたは違反する恐れのある場合は、何ら通知または催告なしに、ユーザーに対する本アプリの提供を停止し、または本規約を解除することができるものとします。
+
+ 第10条　ユーザーの責務
+ ユーザーは、本アプリに関する関係法令（外国為替及び外国貿易法及びその関係法令等を含みます）を遵守するものとします。
+ユーザーは、本規約に違反した結果、当社又は第三者に損害を与えた場合は、その損害を賠償するものとします。
+ユーザーは、自己の自由意思で本アプリをダウンロード、インストール又は利用するものとし、本アプリに関し、第三者との間で紛争等が発生した場合、自己の費用と責任において一切を処理解決し、当社に何らの損害等も被らせないものとします。
+
+ 第11条　権利義務の譲渡禁止
+ ユーザーは、当社の書面による事前承諾なしに、本利用規約に基づく一切の権利又は義務について、第三者への譲渡、承継、質入その他一切の処分をしてはならないものとします。
+
+ 第12条　準拠法
+ 本規約の成立､効力､履行及び解決に関しては日本国法が適用されるものとします｡
+
+ 第13条　管轄裁判所
+ 本規約に関する一切の紛争に関し訴訟を提起する場合は､東京地方裁判所を第一審の専属の管轄裁判所とします｡
+
+ 以上
+2016年3月7日　制定
+
+"</string>
+    <string name="terms_detail1">"ユーザーは、予め本規約に同意した上で本アプリをダウンロード、インストール又は利用するものとします。
+当社は、ユーザーの承諾なく、本規約を変更することができ、本規約の変更は、変更後の本規約がユーザーに閲覧可能な状態におかれた時点より効力を生じるものとします。
+本規約の変更後に本アプリをご使用された場合、変更後の本規約に同意したものとみなします。
+本アプリが接続する第三者が提供するインターネットサービスの利用に関しては本規約のみならず、当該第三者の定める各種利用規約等の規定に従うものとします。"</string>
+    <string name="terms_detail10">"ユーザーは、本アプリに関する関係法令（外国為替及び外国貿易法及びその関係法令等を含みます）を遵守するものとします。
+ユーザーは、本規約に違反した結果、当社又は第三者に損害を与えた場合は、その損害を賠償するものとします。
+ユーザーは、自己の自由意思で本アプリをダウンロード、インストール又は利用するものとし、本アプリに関し、第三者との間で紛争等が発生した場合、自己の費用と責任において一切を処理解決し、当社に何らの損害等も被らせないものとします。"</string>
+    <string name="terms_detail11">ユーザーは、当社の書面による事前承諾なしに、本利用規約に基づく一切の権利又は義務について、第三者への譲渡、承継、質入その他一切の処分をしてはならないものとします。</string>
+    <string name="terms_detail12">本規約の成立､効力､履行及び解決に関しては日本国法が適用されるものとします｡</string>
+    <string name="terms_detail13">本規約に関する一切の紛争に関し訴訟を提起する場合は､東京地方裁判所を第一審の専属の管轄裁判所とします｡</string>
+    <string name="terms_detail2">"本アプリを利用する前提として、本商品と通信を行うために必要となるBluetooth® Smartに対応した携帯端末をユーザーの責任で準備して頂くものとします。当社は、本サービスに対応する携帯（以下、「対応携帯端末」といいます。）に関する参考情報を、本製品の取扱説明書または当社ホームページなどに記載します。
+前項の対応携帯端末に関する情報はあくまで参考情報であって、対応携帯端末として示された端末であっても、ご利用できない場合があります。対応携帯端末であっても、お客様が実際にお持ちの携帯端末への対応状況は、お客様の責任で確認いただくものとし、当該携帯端末が対応可能か否かの通知につきましては責任を負いかねます。
+対応携帯端末については当社が一括して選定するものとします。非対応携帯端末での本サービス使用に関しては、当社は一切の責任を負いかねます。"</string>
+    <string name="terms_detail3">本アプリに関わるすべての著作権は当社および当社が正当であると判断した法人または個人に帰属するものとします。</string>
+    <string name="terms_detail4">ユーザーは、ユーザー自身の責任において本アプリを利用するものとし、本アプリを利用してなされた一切の行為により生じたユーザーの損害について、当社は一切の責任を負わないことに同意するものとします。</string>
+    <string name="terms_detail5">ユーザーが本アプリを利用するにあたって、当社に提供する個人情報については、当社は当社のプライバシーポリシーに基づき適切に取り扱うものとし、ユーザーは当社による個人情報の取得及び利用について、同意するものとします。</string>
+    <string name="terms_detail6">"本アプリは無料でご利用いただけますが、一部サービスの利用（以下「有料サービス」といいます。）については、ユーザーは当社が別途定める利用料金を支払うものとします。
+未成年者は法定代理人の同意を得た上で有料サービスを利用するものとし、当社は、本サービスが利用されたことをもって法定代理人の同意を得たものとみなします。この場合、ユーザーは自身が未成年であることを理由として有料サービスの利用を取り消すことはできません。
+未成年のユーザーが自身を２０歳以上である、または親権者の同意を得ていないにも関わらずこれを得たと偽って有料サービスを利用した場合、未成年であることを理由に当該利用を取消すことはできないものとします。
+有料サービス利用後は、理由の有無に関わらず返金手続を行うことはできません。"</string>
+    <string name="terms_detail7">"ユーザーは、本アプリの利用にあたり、次に掲げる行為を行ってはならないものとします。ユーザーの違反行為により当社に損害が生じた場合、ユーザーはその損害を賠償する責任を負うものとします。
+本アプリを個人的な利用を超えて、商業・営利目的において使用すること。ただし、当社が別途書面で承諾した場合を除きます。
+当社又は第三者の著作権、商標権、プライバシー権、肖像権、名誉等の権利を侵害し、またはそのおそれのある行為を行うこと。
+リバースエンジニアリング、逆コンパイル、逆アセンブルその他の解析、分析を行うこと。(当社に許可を得た場合を除きます。)
+法令、公序良俗又は本利用規約等に違反する行為を行うこと。
+その他当社が不適切と判断するもの。"</string>
+    <string name="terms_detail8">"当社は、本アプリが第三者の権利を侵害していないことを保証するものではありません。万一、本アプリが第三者の権利を侵害し、又はそのおそれがあることが判明したときは、ユーザーは速やかに本アプリを消去するものとします。
+当社は、本アプリについてその正確性、妥当性、適用性、有用性及び動作保証、並びに使用目的及び使用機器への適合性及びその他一切の事項について保証するものではありません。
+ユーザーが、本アプリに関して損害を被った場合であっても、その損害が当社の故意若しくは重過失によるときを除いて、当社は本アプリに関してユーザー又は第三者に生じた一切の損害について責任を負いません。なお、当社の故意または重過失により当社が責任を負う場合、賠償の範囲は、現実に発生した通常かつ直接の損害に限定されます。
+当社はユーザーが本アプリを利用して作成、および本アプリに対して投稿したコンテンツについて、保存及び復元の義務を負わないものします。重要なコンテンツについては、ユーザーが適宜バックアップを作成して下さい。"</string>
+    <string name="terms_detail9">"当社は、本アプリの内容および配信方法を予告なく当社の裁量により機能改良、追加、中止、変更、削除またはアクセス不能とすることができ、当該機能改良、追加、中止、変更、削除またはアクセス不能となったことによりユーザーが損害を被ったとしても、当社は一切賠償の責を負わないものとします。
+当社は、ユーザーが本利用規約に違反しまたは違反する恐れのある場合は、何ら通知または催告なしに、ユーザーに対する本アプリの提供を停止し、または本規約を解除することができるものとします。"</string>
+    <string name="terms_footer">"以上
+2016年3月7日　制定"</string>
+    <string name="terms_header">"「mornin' plus」は、株式会社ロビット（以下「当社」といいます）が提供するカーテン開閉装置「mornin' plus」と連携し操作を行うアプリケーション（以下「本アプリ」といいます）です。
+ユーザーは本利用規約（以下「本規約」といいます）に同意した上で、本アプリを利用するものとし、本アプリを利用することにより、本規約に同意したものとみなします。
+本規約は、本アプリがアップデートされた場合のアップデート版アプリにおいても適用されます。
+なお、未成年者は法定代理人の同意を得た上で本サービスを利用するものとし、運営会社は、本サービスが利用されたことをもって法定代理人の同意を得たものとみなします。"</string>
+    <string name="terms_section1">第1条　ご利用にあたって</string>
+    <string name="terms_section10">第10条　ユーザーの責務</string>
+    <string name="terms_section11">第11条　権利義務の譲渡禁止</string>
+    <string name="terms_section12">第12条　準拠法</string>
+    <string name="terms_section13">第13条　管轄裁判所</string>
+    <string name="terms_section2">第2条　対応携帯端末について</string>
+    <string name="terms_section3">第3条　著作権について</string>
+    <string name="terms_section4">第4条　ユーザーの責任</string>
+    <string name="terms_section5">第5条　個人情報の取扱</string>
+    <string name="terms_section6">第6条　有料サービスについて</string>
+    <string name="terms_section7">第7条　禁止事項</string>
+    <string name="terms_section8">第8条　免責事項</string>
+    <string name="terms_section9">第9条　本アプリの変更・中止</string>
+    <string name="timer">タイマー</string>
+    <string name="timer_action">動作</string>
+    <string name="timer_bluetooth_state_off">Bluetoothがオフになっています</string>
+    <string name="timer_chicken_not_exist">設定が正しくない本体が選択されています</string>
+    <string name="timer_close">CLOSE</string>
+    <string name="timer_delete">このタイマーを削除</string>
+    <string name="timer_delete_confirm">アプリ上と本体からタイマーが削除されます</string>
+    <string name="timer_device_not_connected">選択している本体が接続されていません</string>
+    <string name="timer_edit">タイマー設定</string>
+    <string name="timer_empty_add_new">最初のタイマーを作成</string>
+    <string name="timer_empty_chicken_target">1台以上本体を選択してください</string>
+    <string name="timer_everyday">毎日</string>
+    <string name="timer_force_delete">アプリ内からタイマーを削除しますか？この際、本体にタイマーが残る場合があります。</string>
+    <string name="timer_friday">金</string>
+    <string name="timer_holiday">祝</string>
+    <string name="timer_invalid_time">タイマーが無効です</string>
+    <string name="timer_memo">ラベル</string>
+    <string name="timer_memo_input_main">ラベルを入力</string>
+    <string name="timer_memo_placeholder">タイマー</string>
+    <string name="timer_monday">月</string>
+    <string name="timer_name_over_length">ラベル名が長すぎます</string>
+    <string name="timer_no_timer_vacancy_in_local">タイマーをこれ以上作成することはできません</string>
+    <string name="timer_no_timer_vacancy_on_chicken">本体のタイマー登録数が限界です</string>
+    <string name="timer_none">なし</string>
+    <string name="timer_open">OPEN</string>
+    <string name="timer_other_error">エラーが発生しました</string>
+    <string name="timer_repeats">繰り返し</string>
+    <string name="timer_same_timer_already_saved">同じ時刻に動作するタイマーが既に設定されています</string>
+    <string name="timer_saturday">土</string>
+    <string name="timer_sound">サウンド</string>
+    <string name="timer_sound_none">なし</string>
+    <string name="timer_sound_note_main">マナーモードをオフにして、音量を大きくしてください</string>
+    <string name="timer_sound_note_sub">オンのままでは通知音がミュートされてしまい、サウンドが流れません。</string>
+    <string name="timer_sound_without_related_devices">サウンドに対応する本体を選択してください</string>
+    <string name="timer_sunday">日</string>
+    <string name="timer_target">本体</string>
+    <string name="timer_thursday">木</string>
+    <string name="timer_time">時間</string>
+    <string name="timer_timer_not_exist">タイマーが正しく表示されていません</string>
+    <string name="timer_timer_sound_limited">サウンドはiOS10以降でのみご使用いただけます</string>
+    <string name="timer_today">今日</string>
+    <string name="timer_tomorrow">明日</string>
+    <string name="timer_tuesday">火</string>
+    <string name="timer_wednesday">水</string>
+    <string name="tutorial">チュートリアル</string>
+    <string name="tutorial_action_test_main">カーテンは開いていますか？</string>
+    <string name="tutorial_action_test_not_opened">開かない</string>
+    <string name="tutorial_action_test_opening">はい</string>
+    <string name="tutorial_back_cover_close_main">取り付ける前に、バッテリーカバーを閉めてください</string>
+    <string name="tutorial_begin_connecting_new">新しい本体を接続</string>
+    <string name="tutorial_begin_finish_tutorial">チュートリアルを終了</string>
+    <string name="tutorial_begin_main">ようこそ！</string>
+    <string name="tutorial_begin_production">詳しい紹介</string>
+    <string name="tutorial_begin_receive_sharing_code">共有コード読み取り</string>
+    <string name="tutorial_begin_start">使い始める</string>
+    <string name="tutorial_begin_starting_mode_title">使い始める</string>
+    <string name="tutorial_begin_sub">起床時刻に自動でカーテンを開き、太陽光による快適な目覚めを促す家電製品です。</string>
+    <string name="tutorial_collabo_position_back">裏側</string>
+    <string name="tutorial_collabo_position_front">表側</string>
+    <string name="tutorial_collabo_position_main">本体を取り付ける場所を選択してください</string>
+    <string name="tutorial_collabo_position_sub">裏側に取り付けると本体がカーテンに隠れます。表側であれば取り付け後も本体が見えます。</string>
+    <string name="tutorial_confirm_update_firmware_main">新しいファームウェアがあります</string>
+    <string name="tutorial_confirm_update_firmware_sub">設置の前にファームウェアを更新してください。</string>
+    <string name="tutorial_confirm_update_firmware_yes">更新する</string>
+    <string name="tutorial_connected_main">正常に接続されました</string>
+    <string name="tutorial_connected_sub">次にカーテンに取り付けます</string>
+    <string name="tutorial_connecting_main">接続しています…</string>
+    <string name="tutorial_connection_timeout_main">対象の本体が見つかりませんでした</string>
+    <string name="tutorial_connection_timeout_sub">ランプがゆっくり点滅しているかご確認の上、再度お試しください。</string>
+    <string name="tutorial_continue_after_tutorial_confirm_main">チュートリアルが中断されました</string>
+    <string name="tutorial_continue_after_tutorial_confirm_nega">いいえ</string>
+    <string name="tutorial_continue_after_tutorial_confirm_posi">再開</string>
+    <string name="tutorial_continue_after_tutorial_confirm_sub">取り付けチュートリアルを再開しますか？</string>
+    <string name="tutorial_continue_tutorial_confirm_main">チュートリアルが中断されました</string>
+    <string name="tutorial_continue_tutorial_confirm_nega">初期化</string>
+    <string name="tutorial_continue_tutorial_confirm_posi">再開</string>
+    <string name="tutorial_continue_tutorial_confirm_sub">"チュートリアルを再開しますか？
+もしくは接続設定を初期化して最初からチュートリアルを開始することもできます。初期化すると再度接続するために本体のリセットが必要になります。"</string>
+    <string name="tutorial_device_preparation_main_plus">"「mornin' plus」をお手元に用意して、設定を始めましょう"</string>
+    <string name="tutorial_device_preparation_main_v1">"「mornin'」をお手元に用意して、設定を始めましょう"</string>
+    <string name="tutorial_device_preparation_sub_plus">新機種です。旧機種をご利用の方は、前の画面で選択し直してください。</string>
+    <string name="tutorial_device_preparation_sub_v1">旧機種です。新機種をご利用の方は、前の画面で選択し直してください。</string>
+    <string name="tutorial_end_main">これで接続の設定は完了です</string>
+    <string name="tutorial_help_for_connection">接続できない</string>
+    <string name="tutorial_led_blinking_connect">接続する</string>
+    <string name="tutorial_led_blinking_main_plus">絶縁シートを抜くか、リセットボタンを押してください</string>
+    <string name="tutorial_led_blinking_main_v1">スイッチを押してください</string>
+    <string name="tutorial_led_blinking_sub">ランプがゆっくり点滅したら接続を開始してください。</string>
+    <string name="tutorial_migrate_from_old_app_completed_main">旧専用アプリから本体設定の引き継ぎが完了しました</string>
+    <string name="tutorial_migrate_from_old_app_completed_title">本体設定の引き継ぎ</string>
+    <string name="tutorial_migrate_from_old_app_confirm_main">"旧mornin'アプリから接続設定を引き継ぎますか？"</string>
+    <string name="tutorial_migrate_from_old_app_confirm_no">いいえ</string>
+    <string name="tutorial_migrate_from_old_app_confirm_sub">"mornin'の接続設定を引き継ぐと、このアプリでも接続できるようになります。"</string>
+    <string name="tutorial_migrate_from_old_app_confirm_yes">引き継ぐ</string>
+    <string name="tutorial_migrate_from_old_app_failed_by_inactive_main">"旧mornin'アプリから引き継ぐ設定を確認できませんでした"</string>
+    <string name="tutorial_migrate_from_old_app_failed_by_inactive_sub">"接続設定の引き継ぎ確認のため旧mornin'アプリを開いた後再度お試しください。それでも引き継げない場合はスマートフォンを再起動させてください。"</string>
+    <string name="tutorial_migrate_from_old_app_failed_main">"旧mornin'アプリからの引き継ぎに失敗しました"</string>
+    <string name="tutorial_migrate_from_old_app_failed_sub">"接続設定を引き継ぐには旧mornin'アプリを完全に終了してから再度お試しください。改善されない場合はスマートフォンを再起動させてください。"</string>
+    <string name="tutorial_migrate_from_old_app_not_migrate">引き継がない</string>
+    <string name="tutorial_migrate_from_old_app_select_title">引き継ぐ本体を選択</string>
+    <string name="tutorial_mismatch_rail_check_and_watch">レールの確認および取り付け方を見る</string>
+    <string name="tutorial_mismatch_rail_main">特殊レールをご使用ですか？</string>
+    <string name="tutorial_mismatch_rail_sub">トーソー株式会社の「エリート」に取り付ける場合、特殊な設置作業を行う必要があります。</string>
+    <string name="tutorial_mismatch_rail_title">ヘルプ</string>
+    <string name="tutorial_notification_request_main">プッシュ通知を許可してください</string>
+    <string name="tutorial_notification_request_sub">タイマーの時間にサウンドを流すために必要です。</string>
+    <string name="tutorial_position_left">左側</string>
+    <string name="tutorial_position_main">開閉したいカーテンを選択してください</string>
+    <string name="tutorial_position_right">右側</string>
+    <string name="tutorial_reconnecting_main">再接続しています…</string>
+    <string name="tutorial_select_device_type_to_connect">接続する機種を選択してください</string>
+    <string name="tutorial_select_device_type_to_reset">リセットする機種を選択してください</string>
+    <string name="tutorial_settings_main">動作を調整できます</string>
+    <string name="tutorial_settings_now">調整する</string>
+    <string name="tutorial_settings_sub">開閉パワーや昇降スピードを調整して、思い通りに開閉するようにしましょう。</string>
+    <string name="tutorial_step1_collabo_main">本体はカーテンの端に設置します</string>
+    <string name="tutorial_step1_collabo_sub">次のページから具体的な設置方法を説明します。</string>
+    <string name="tutorial_step1_main">カーテンの端のフックをレールから外してください</string>
+    <string name="tutorial_step1_sub">カーテンを閉じてから行ってください。</string>
+    <string name="tutorial_step2_collabo_sub">イラストが正面に来るように持ち、人差し指でスイッチを押してください。</string>
+    <string name="tutorial_step2_main">スイッチを押して、アームが回転するか確かめてください</string>
+    <string name="tutorial_step2_sub">スイッチが正面に来るように持ち、親指でスイッチを押してください。</string>
+    <string name="tutorial_step3_main">カーテンレールに本体を設置します</string>
+    <string name="tutorial_step3_sub">故障や怪我の原因になりますので、無理に力を入れないでください。</string>
+    <string name="tutorial_step4_main">本体が隠れるように、カーテンを元に戻します</string>
+    <string name="tutorial_step_end_main">これで取り付けは終わりです</string>
+    <string name="tutorial_step_end_sub">最後に動作テストを行います。</string>
+    <string name="tutorial_step_rail_mismatch">レールに入らない</string>
+    <string name="tutorial_terms_and_privacy_agree">同意する</string>
+    <string name="tutorial_terms_and_privacy_main">利用規約・プライバシーポリシーに同意してください</string>
+    <string name="tutorial_terms_and_privacy_sub">本アプリの利用には以下の内容を確認し、同意いただく必要がございます。</string>
+    <string name="tutorial_terms_and_privacy_title">ご利用前に</string>
+    <string name="tutorial_tire_initializing_main">タイヤが初期化中です…</string>
+    <string name="tutorial_tire_initializing_sub">電池を抜き差ししたりリセットした後は、タイヤが一度一番下まで下降します。</string>
+    <string name="tutorial_tire_lifting_down_main">タイヤが下降中です…</string>
+    <string name="tutorial_tire_lifting_down_sub">タイヤが下りきると、カーテンを手で開けられるようになります。</string>
+    <string name="tutorial_tire_lifting_up_main">タイヤが上昇中です…</string>
+    <string name="tutorial_tire_lifting_up_sub">開閉動作するために、本体内のタイヤを上昇させてカーテンレールに押し当てる必要があります。</string>
+    <string name="yes">はい</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="zxing_msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/size_row_v" android:foreground="?android:selectableItemBackground" android:elevation="@dimen/elevation_grouped_row"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.App.Row.Main" android:id="@id/mainTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_default_row_small" android:layout_marginBottom="@dimen/margin_default_row_small" android:text="@string/help_section_support_other" android:layout_marginStart="@dimen/margin_default_row" android:layout_marginEnd="@dimen/margin_default_row" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:background="@color/row_separator" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

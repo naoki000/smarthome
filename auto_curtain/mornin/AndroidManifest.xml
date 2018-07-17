@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="jp.co.robit.morninplus">
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="jp.co.robit.chicken2.ChickenApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:launchMode="singleTop" android:name="jp.co.robit.chicken2.frontend.main.SplashActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="launch" android:pathPattern=".*" android:scheme="morninplus"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="jp.co.robit.chicken2.frontend.main.MainActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.aboutapp.AppInfoTextActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.common.web.InAppWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.timer.TimerEditActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.aboutapp.AppRegulatoryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.chicken.ChickenEditActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.chicken.ChickenEditHowToInstallActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.common.LocationRequestActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.share.ShareReceiverActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.share.ShareSenderActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.share.ShareReceiverQRActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.chicken.ChickenEditDurationSetUpActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="jp.co.robit.chicken2.frontend.tutorial.prepare.TutorialPrepareActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.tutorial.setup.TutorialSetUpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.chicken.ChickenEditDurationNotesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.chicken.ChickenAdvancedActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.chicken.ChickenActionTestActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.collabo.nogizaka.awy.NogizakaAwyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.tutorial.end.TutorialEndActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.aboutapp.AppExternalActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.firmware.update.FirmwareUpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.firmware.recovery.RecoveryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.help.content.connection.HelpContentsReconnectionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.help.content.device.HelpContentsDeviceActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.help.content.connection.HelpContentsConnectNewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.help.content.movement.HelpContentsMovementActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.help.content.timer.HelpContentsTimerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.help.content.movement.HelpTutorialMovementActivity" android:screenOrientation="portrait"/>
+        <activity android:name="jp.co.robit.chicken2.frontend.firmware.NotificationActivity"/>
+        <receiver android:name="jp.co.robit.chicken2.frontend.service.SoundNotificationPublisher"/>
+        <service android:enabled="true" android:exported="false" android:name="jp.co.robit.chicken2.frontend.service.SoundNotificationService"/>
+        <service android:enabled="true" android:exported="false" android:name="jp.co.robit.chicken2.frontend.service.DfuService"/>
+        <service android:enabled="true" android:exported="false" android:name="jp.co.robit.chicken2.frontend.common.web.customtabs.KeepAliveService"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="a2ec5cd22e290cd57b58e065196a267ecd5669d2"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="jp.co.robit.morninplus.crashlyticsinitprovider" android:exported="false" android:initOrder="100" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

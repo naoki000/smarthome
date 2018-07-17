@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ivMorninIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_device_plus_y48" />
+        <ImageView android:id="@id/ivCheckMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_device_check48" android:layout_alignTop="@id/ivMorninIcon" android:layout_alignParentTop="false" android:layout_alignEnd="@id/ivMorninIcon" android:layout_alignParentEnd="false" />
+    </RelativeLayout>
+    <TextView android:ellipsize="end" android:id="@id/tvMorninName" android:paddingTop="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/chicken_nursery" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+</LinearLayout>

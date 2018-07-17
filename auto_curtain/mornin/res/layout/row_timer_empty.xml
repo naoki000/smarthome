@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_default_subhead" android:textStyle="bold" android:textColor="@color/silver" android:gravity="center" android:id="@id/emptyTextView" android:background="@drawable/selector_row_timer_empty" android:layout_width="0.0dip" android:layout_height="@dimen/size_timer_cell_v" android:layout_marginBottom="@dimen/margin_default_small1" android:foreground="?android:selectableItemBackground" android:text="@string/timer_empty_add_new" android:layout_marginStart="@dimen/margin_default_small1" android:layout_marginEnd="@dimen/margin_default_small1" android:elevation="@dimen/elevation_grouped_row" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
