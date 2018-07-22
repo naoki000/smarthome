@@ -4,6 +4,11 @@ const ipaddr = "192.168.43.131"
 googlehome.device("Google-Home", language);
 googlehome.ip(ipaddr);
 googlehome.speed(0.5);
-googlehome.notify("こんにちは", function(res) {
-    console.log(res);
-});
+     
+var googlehomecall = function(message) {
+    googlehome.notify(message, function(res) {
+        console.log(res);
+    });
+}
+
+exports.googlehomecall=googlehomecall;
