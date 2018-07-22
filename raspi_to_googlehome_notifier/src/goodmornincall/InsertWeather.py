@@ -28,32 +28,32 @@ def getweather():
                     #天気
                     global weather 
                     weather= info.findtext('weather')               
-                    print (weather)
+#                    print (weather)
                     global weather_detail 
                     weather_detail = info.findtext('weather_detail')
-                    print (weather_detail)
+#                    print (weather_detail)
                     #温度
                     temperature = info.find('temperature')
                     for range in temperature.findall('range'):
                         if range.get('centigrade') == 'max':
                             global maxtemperature
                             maxtemperature = range.text
-                            print (range.text)
+ #                           print (range.text)
                         if range.get('centigrade') == 'min':
                             global mintemperature 
                             mintemperature = range.text
-                            print (range.text)                        
+  #                          print (range.text)                        
                     #降水確率
                     rainfallchances = info.find('rainfallchance')
                     res = 0
                     for period in rainfallchances.findall('period'):
                         hour = period.get('hour')
-                        print (hour + 'h ' + period.text + '%' )
+   #                     print (hour + 'h ' + period.text + '%' )
                         res  = res +int(period.text)
                     res = res/4
                     global rainfallchance
                     rainfallchance = str(res)
-                    print rainfallchance
+    #                print rainfallchance
 
                     
 def sqlinsert():
@@ -70,11 +70,11 @@ def sqlinsert():
 
     # SQLクエリ実行（データ追加）
     sql = 'INSERT INTO weather VALUES ('+ '\''+today+'\',\''+weather+'\',\''+weather_detail+'\','+maxtemperature+','+mintemperature+','+rainfallchance+');';
-    print (sql)    
+ #   print (sql)    
     db.execute(sql)
     db.execute("select * from weather;")
     for row in db.fetchall():
-        print(row)
+  #      print(row)
     db.close()
     cnt.commit() #反映
     # MySQL切断
