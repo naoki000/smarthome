@@ -1,10 +1,10 @@
 #coding: utf_8
-
+#ただいま
 import datetime
 import xml.etree.ElementTree as ET
 import requests
 import mysql.connector
-today = datetime.datetime.now()
+today = datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S')	
 
 
 # Get rainfallchance of North Yokohama
@@ -25,7 +25,7 @@ def sqlinsert():
     db = cnt.cursor(buffered=True)
 
     # SQLクエリ実行（データ追加）
-    sql = 'INSERT INTO Bedtime VALUES ('+ '\''+str(today)+'\');'
+    sql = 'INSERT INTO imgohometime VALUES ('+ '\''+str(today)+'\');'
  #   print (sql)    
     db.execute(sql)
     db.execute("select * from Bedtime;")

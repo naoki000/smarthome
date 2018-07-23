@@ -1,4 +1,4 @@
-const main = require('../main');
+const main = require('../raspitogooglehome');
 var today = new Date();
 const todaydate = today.getFullYear()+'/'+( '00' + (today.getMonth()+1) ).slice( -2 )+'/'+today.getDate()
 // requireの設定

@@ -73,8 +73,8 @@ def sqlinsert():
  #   print (sql)    
     db.execute(sql)
     db.execute("select * from weather;")
-    for row in db.fetchall():
-  #      print(row)
+#    for row in db.fetchall():
+#        print(row)
     db.close()
     cnt.commit() #反映
     # MySQL切断
