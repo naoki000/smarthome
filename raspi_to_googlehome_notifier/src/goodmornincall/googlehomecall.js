@@ -1,6 +1,6 @@
 const main = require('../raspitogooglehome');
 var today = new Date();
-const todaydate = today.getFullYear()+'/'+( '00' + (today.getMonth()+1) ).slice( -2 )+'/'+today.getDate()
+const todaydate = today.getFullYear()+'/'+( '00' + (today.getMonth()+1) ).slice( -2 )+'/'+( '00' + (today.getDate()) ).slice( -2 )
 // requireの設定
 const mysql = require('mysql');
 // MySQLとのコネクションの作成

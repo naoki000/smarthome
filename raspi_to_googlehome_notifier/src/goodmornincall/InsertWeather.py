@@ -72,7 +72,7 @@ def sqlinsert():
     sql = 'INSERT INTO weather VALUES ('+ '\''+today+'\',\''+weather+'\',\''+weather_detail+'\','+maxtemperature+','+mintemperature+','+rainfallchance+');';
  #   print (sql)    
     db.execute(sql)
-    db.execute("select * from weather;")
+ #   db.execute("select * from weather;")
 #    for row in db.fetchall():
 #        print(row)
     db.close()

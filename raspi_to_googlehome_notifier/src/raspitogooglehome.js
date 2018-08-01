@@ -1,6 +1,6 @@
 const googlehome = require('../node_modules/google-home-notifier');
 const language = 'ja';
-const ipaddr = "192.168.43.131"
+const ipaddr = "192.168.1.21"
 googlehome.device("Google-Home", language);
 googlehome.ip(ipaddr);
 googlehome.speed(0.5);
