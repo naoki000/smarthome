@@ -10,6 +10,7 @@ var SERVICE_UUID = "713d0000503e4c75ba943148f18d941e";
 var SERVICE_CHARACTERISTIC_UUID = "713d0001503e4c75ba943148f18d941e";
 
 //start ble
+//test
 noble.on('stateChange', function(state) {
     if (state === 'poweredOn') {
 	noble.startScanning();
