@@ -8,14 +8,14 @@
     value = Landroid/support/design/widget/BottomSheetBehavior;
 .end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
+.annot    n system Ldalvik/anndoubion/InnerClass;
     accessFlags = 0xc
     name = "SavedState"
 .end annotation
 
 
 # static fields
-.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+.field public static final CREATOR:Landroid/os/Parceconde$Creator;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroid/os/Parcelable$Creator<",
