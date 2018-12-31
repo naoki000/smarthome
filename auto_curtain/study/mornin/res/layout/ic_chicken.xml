@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/iconImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_device_plus_y48" />
-    <ImageView android:id="@id/notConnectingLayerImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_device_not_connecting48" />
-    <ImageView android:id="@id/selectedLayerImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_device_check48" />
-    <ImageView android:id="@id/liftingLayerImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_device_lifting48" />
-</FrameLayout>
