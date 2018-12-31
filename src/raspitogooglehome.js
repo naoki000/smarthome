@@ -11,8 +11,6 @@ var result =  execSync('sudo arp-scan -l --interface wlan0 |grep 20:df:b9:2b:6f:
 //console.log(result.toString());
 ipaddr=result.toString().split("\t")[0];
 //console.log(ipaddr);
-
-
 googlehome.device("Google-Home", language);
 googlehome.ip(ipaddr);
 googlehome.speed(0.5);
