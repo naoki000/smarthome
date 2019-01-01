@@ -2,7 +2,6 @@ const googlehome = require('../node_modules/google-home-notifier');
 const language = 'ja';
 const macaddr = "20:df:b9:2b:6f:88"
 var ipaddr = "192.168.xx.xx"
-
 //arp-scanでhomeのmacアドレスからipアドレスを検索
 //動的ipアドレスに対応
 var execSync = require('child_process').execSync;
